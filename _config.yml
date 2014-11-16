@@ -1,0 +1,100 @@
+base_url: "http://www.padrinorb.com/"
+
+# Site settings
+title: Padrino
+email: members@padrinorb.com
+description: "Padrino is a ruby framework built upon the excellent Sinatra Microframework. This framework tries hard to make it as fun and easy as possible to code much more advanced web applications by building upon the Sinatra philosophies and foundation."
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: FF0000
+  secondary: FF0000
+  secondary-dark: 333
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Team names, titles and social links
+people:
+- name: DAddYE
+  pic: daddye
+  position: He lives, works, and plays in SF.
+  social:
+    - title: twitter
+      url: https://www.twitter.com/DAddYE
+    - title: github
+      url: https://github.com/DAddYE
+- name: Uchio Kondo
+  pic: kondo
+  position: Is the official maintainer of 日本語 Padrino サイト.
+  social:
+    - title: twitter
+      url: https://twitter.com/udzura
+    - title: github
+      url: https://github.com/udzura
+- name: namusyaka
+  pic: kondo
+  position: I’m a ruby programmer born in Japan.
+  social:
+    - title: twitter
+      url: https://twitter.com/namusyaka
+    - title: github
+      url: https://github.com/namusyaka
+- name: Darío Javier Cravero
+  pic: dario
+  position: Loves to innovate and create simple yet great solutions.
+  social:
+    - title: twitter
+      url: https://twitter.com/dariocravero
+    - title: github
+      url: https://github.com/dariocravero
+- name: Igor Bochkariov
+  pic: igor
+  position: Loves Ruby and web programming and tries to keep Padrino lean and mean.
+  social:
+    - title: twitter
+      url: https://twitter.com/ujifgc
+    - title: github
+      url: https://github.com/ujifgc
+- name: Nathan Esquenazi
+  pic: nathan
+  position: used to also do freelance work using Rails and Padrino
+  social:
+    - title: twitter
+      url: https://twitter.com/nesquena
+    - title: github
+      url: https://github.com/nesquena
+- name: Arthur Chiu
+  pic: nathan
+  position: He enjoys programming, martial arts, and traveling when he has the time
+  social:
+    - title: twitter
+      url: https://twitter.com/achiu
+    - title: github
+      url: https://github.com/achiu
+- name: Florian Gilcher
+  pic: florian
+  position: He uses his own mashup of Sinatra and many parts of Padrino for it
+  social:
+    - title: twitter
+      url: https://twitter.com/skade
+    - title: github
+      url: https://github.com/skade
+- name: Joshua Hull
+  pic: joshua
+  position: Joshua loves his Ruby, and loves making awesome web apps.
+  social:
+    - title: twitter
+      url: https://twitter.com/joshbuddy
+    - title: github
+      url: https://github.com/joshbuddy
+
+social:
+  - title: twitter
+    url: http://twitter.com/padrinorb
+  - title: github
+    url: http://github.com/padrino
+
