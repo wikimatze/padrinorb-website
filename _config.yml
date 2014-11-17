@@ -1,3 +1,16 @@
+markdown: redcarpet
+highlighter: pygments
+rdiscount:
+  extensions: [smart]
+timezone: DE
+
+
+permalink: /:title
+
+
+destination: _site
+
+
 base_url: "http://www.padrinorb.com/"
 
 # Site settings
