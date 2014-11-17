@@ -26,9 +26,20 @@ color:
   secondary-dark: 333
 
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# yaml default setup
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 
 # Team names, titles and social links
 people:
