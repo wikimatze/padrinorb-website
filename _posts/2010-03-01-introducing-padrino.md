@@ -1,5 +1,4 @@
 ---
-date: 2010-03-01
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: Press, Ruby, Faqs

@@ -1,5 +1,4 @@
 ---
-date: 2011-02-25
 author: Nathan
 email: nesquena@gmail.com
 categories: Ruby, Update
@@ -24,16 +23,16 @@ For instance if you have a user and he has an address which is stored in a separ
     # app/views/example.haml
     # app/views/person/_form.html.haml
     - form_for @person, '/person/create'  do |f|
-      = f.text_field :name 
+      = f.text_field :name
       = f.text_field :favorite_color
-      - f.fields_for :addresses do |address_form| 
-        = address_form.label :street 
+      - f.fields_for :addresses do |address_form|
+        = address_form.label :street
         = address_form.text_field :street
         = address_form.label :city
         = address_form.text_field :city
-        - unless address_form.object.new_record? 
-          = address_form.check_box '_destroy' 
-          = address_form.label '_destroy', :caption => 'Remove' 
+        - unless address_form.object.new_record?
+          = address_form.check_box '_destroy'
+          = address_form.label '_destroy', :caption => 'Remove'
         = submit_tag "Save"
 
 For the details be sure to checkout the [Application Helper Guide](http://www.padrinorb.com/guides/application-helpers) to learn more.

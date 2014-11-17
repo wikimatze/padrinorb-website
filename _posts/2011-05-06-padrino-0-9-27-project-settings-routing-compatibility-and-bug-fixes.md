@@ -1,5 +1,4 @@
 ---
-date: 2011-05-06
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: Ruby, Update
@@ -22,9 +21,9 @@ If you want to hear more about Padrino, [a podcast](http://rubiverse.com/podcast
 In this release, we have added the notion of ‘project’ settings that are inherited by every Padrino application within the project. This can be used to set any properties but is particularly useful for sharing sessions across your apps. These project-wide settings are intended to live in `config/apps.rb` and are generated in every new application.
 
     # config/apps.rb
-    # Set the global project settings for your apps. 
-    # These settings are inherited by your subapps. 
-    # You can override these settings in each of your sub apps.    
+    # Set the global project settings for your apps.
+    # These settings are inherited by your subapps.
+    # You can override these settings in each of your sub apps.
     Padrino.configure_apps do
       enable :sessions
       set :foo, "bar"

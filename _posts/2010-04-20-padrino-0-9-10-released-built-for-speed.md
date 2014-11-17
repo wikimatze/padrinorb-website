@@ -1,5 +1,4 @@
 ---
-date: 2010-04-20
 author: Nathan
 email: nesquena@gmail.com
 categories: Ruby, Update
@@ -45,7 +44,7 @@ For our benchmarks, we chose to test three different sample applications. The [f
 
       # Rendering a simulated simple app
       Padrino 0.9.10    => 675.79 rps
-      Sinatra 1.0.0     => 652.0 rps  
+      Sinatra 1.0.0     => 652.0 rps
       Merb 1.1.0        => 642.29 rps
       Rails 3.0.beta3   => 201.86 rps
       Ramaze 2010.04.04 => 130.62 rps

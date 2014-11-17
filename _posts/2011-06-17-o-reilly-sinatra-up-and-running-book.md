@@ -1,5 +1,4 @@
 ---
-date: 2011-06-17
 author: Arthur
 email: mr.arthur.chiu@gmail.com
 categories: Press

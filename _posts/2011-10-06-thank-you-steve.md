@@ -1,5 +1,4 @@
 ---
-date: 2011-10-06
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: Press

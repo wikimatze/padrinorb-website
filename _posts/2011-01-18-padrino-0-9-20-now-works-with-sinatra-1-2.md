@@ -1,5 +1,4 @@
 ---
-date: 2011-01-18
 author: Nathan
 email: nesquena@gmail.com
 categories: Update

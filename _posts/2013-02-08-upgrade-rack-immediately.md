@@ -1,5 +1,4 @@
 ---
-date: 2013-02-08
 author: Florian
 email: florian.gilcher@asquera.de
 categories: Update

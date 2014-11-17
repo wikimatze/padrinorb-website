@@ -1,5 +1,4 @@
 ---
-date: 2010-08-28
 author: Arthur
 email: mr.arthur.chiu@gmail.com
 categories: Ruby, Update

@@ -1,5 +1,4 @@
 ---
-date: 2013-03-10
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: Update

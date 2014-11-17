@@ -1,5 +1,4 @@
 ---
-date: 2010-05-07
 author: Nathan
 email: nesquena@gmail.com
 categories: Ruby, Update

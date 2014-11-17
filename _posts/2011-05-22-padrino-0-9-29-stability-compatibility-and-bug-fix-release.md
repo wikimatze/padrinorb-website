@@ -1,5 +1,4 @@
 ---
-date: 2011-05-22
 author: Nathan
 email: nesquena@gmail.com
 categories: Ruby, Update
@@ -22,7 +21,7 @@ When upgrading to this latest release, you should take advantage of project-wide
       enable :sessions
       # $ padrino rake gen
       # $ rake secret
-      set :session_secret, "long secret key pasted here" 
+      set :session_secret, "long secret key pasted here"
     end
 
 Adding this to the top of your app.rb will enable sessions in all applications within the project and use a secret session key to persist the session properly across all these apps. Make sure to run the ‘rake secret’ command and put the session key into the `:session_secret` setting. Not doing this can create session related issues in your project.

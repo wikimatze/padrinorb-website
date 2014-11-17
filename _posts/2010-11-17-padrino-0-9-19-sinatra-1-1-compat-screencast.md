@@ -1,5 +1,4 @@
 ---
-date: 2010-11-17
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: Press, Ruby, Update

@@ -1,5 +1,4 @@
 ---
-date: 2011-05-10
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: Ruby, Faqs
@@ -41,7 +40,7 @@ Now we need to create and migrate our database:
 
     $ padrino rake ar:create ar:migrate
 
-Open your favorite editor and browse and edit `Gemfile` and add `omniauth` gem and the providers for twitter and facebook. 
+Open your favorite editor and browse and edit `Gemfile` and add `omniauth` gem and the providers for twitter and facebook.
 We also add the `haml` gem as it's not included by default in the "tiny" padrino template:
 
     # Gemfile
@@ -142,7 +141,7 @@ And add a couple useful routes, edit `app/controllers.rb` with:
 
     get :auth, :map => '/auth/:provider/callback' do
       auth    = request.env["omniauth.auth"]
-      account = Account.find_by_provider_and_uid(auth["provider"], auth["uid"]) || 
+      account = Account.find_by_provider_and_uid(auth["provider"], auth["uid"]) ||
                 Account.create_with_omniauth(auth)
       set_current_account(account)
       redirect "http://" + request.env["HTTP_HOST"] + url(:profile)

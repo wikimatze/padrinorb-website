@@ -1,5 +1,4 @@
 ---
-date: 2011-04-09
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 tags: padrino, ruby, sinatra

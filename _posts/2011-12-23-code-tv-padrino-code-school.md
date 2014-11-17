@@ -1,5 +1,4 @@
 ---
-date: 2011-12-23
 author: Nathan
 email: nesquena@gmail.com
 tags: padrino, codeschool

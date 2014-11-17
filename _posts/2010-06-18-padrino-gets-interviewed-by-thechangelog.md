@@ -1,5 +1,4 @@
 ---
-date: 2010-06-18
 author: Nathan
 email: nesquena@gmail.com
 categories: Press, Ruby, Update

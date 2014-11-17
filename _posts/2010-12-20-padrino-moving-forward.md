@@ -1,5 +1,4 @@
 ---
-date: 2010-12-20
 author: Nathan
 email: nesquena@gmail.com
 tags: padrino, info

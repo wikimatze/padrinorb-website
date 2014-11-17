@@ -1,5 +1,4 @@
 ---
-date: 2010-05-28
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: Update
@@ -118,26 +117,26 @@ In addition, you should add the correct modules to the admin application (if gen
 This should make the applications work as they did in 0.9.10. In addition to this the only other breaking change is the completely new mailer functionality. The old mailer syntax required your settings to be configured as shown:
 
     # config/initializers/mailer_init.rb
-    Padrino::Mailer::Base.smtp_settings = { 
-     :host   => 'smtp.gmail.com', 
-     :port   => '587', 
-     :tls    => true, 
-     :user   => 'user', 
-     :pass   => 'pass', 
-     :auth   => :plain 
-    } 
+    Padrino::Mailer::Base.smtp_settings = {
+     :host   => 'smtp.gmail.com',
+     :port   => '587',
+     :tls    => true,
+     :user   => 'user',
+     :pass   => 'pass',
+     :auth   => :plain
+    }
 
 this should be replaced with the updated syntax:
 
     # app/app.rb
-    set :delivery_method, :smtp => { 
+    set :delivery_method, :smtp => {
       :address              => "smtp.gmail.com",
       :port                 => 587,
       :domain               => 'your.host.name',
       :user_name            => '<username>',
       :password             => '<password>',
       :authentication       => 'plain',
-      :enable_starttls_auto => true  
+      :enable_starttls_auto => true
     }
 
 You also need to modify the older mailer definitions:
@@ -160,10 +159,10 @@ and change them to use the updated syntax:
         from 'admin@site.com'
         to email
         subject 'Welcome to the site!'
-        # now requires explicit render 
+        # now requires explicit render
         #   template found in app/views/mailers/sample/registration.erb
         #   with access to 'name' and 'email' local vars
-        render 'registration' 
+        render 'registration'
         locals :name => name, :email => email
       end
     end
