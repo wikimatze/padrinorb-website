@@ -122,3 +122,10 @@ social:
   - title: github
     url: http://github.com/padrino
 
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - plugins
+  - Rakefile
+  - bin
