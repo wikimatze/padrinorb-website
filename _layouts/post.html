@@ -12,7 +12,19 @@
                     <div class="author">
                       Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time>
                       {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} by {{ page.author }}
+
+                      <div class="tags pull-right">
+                        {% if page.categories == empty  %}
+                        No tags
+                        {% else %}
+                        Tags:
+                        {% for tag in page.categories %}
+                        <a class="label label-default" href="/tags.html#{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                      </div>
                     </div>
+
                   <p class="text-muted">{{ content }}</p>
 
                   <div class="hierarchy pull-right">Hierarchy:
