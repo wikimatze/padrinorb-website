@@ -579,7 +579,7 @@ section#contribute {
     background-repeat: no-repeat;
 }
 
-section#contribute .section-heading, p {
+section#contribute .section-heading, section#contribute p {
     color: #fff;
 }
 
