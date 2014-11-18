@@ -41,6 +41,9 @@ defaults:
       layout: "post"
 
 
+gems:
+  - jekyll-sitemap
+
 # Team names, titles and social links
 people:
 - name: DAddYE

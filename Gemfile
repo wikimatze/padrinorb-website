@@ -6,4 +6,5 @@ gem 'highline'    , '1.6.21'
 gem 'jekyll'      , '2.5.1'
 gem 'rake'        , '10.3.2'
 gem 'stringex'    , '2.5.2'
+gem 'jekyll-sitemap', '0.6.2'
 
