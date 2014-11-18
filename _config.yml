@@ -43,6 +43,11 @@ defaults:
 
 gems:
   - jekyll-sitemap
+  - jekyll-mentions
+
+
+jekyll-mentions: https://github.com
+
 
 # Team names, titles and social links
 people:

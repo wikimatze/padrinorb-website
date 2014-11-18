@@ -7,4 +7,5 @@ gem 'jekyll'      , '2.5.1'
 gem 'rake'        , '10.3.2'
 gem 'stringex'    , '2.5.2'
 gem 'jekyll-sitemap', '0.6.2'
+gem 'jekyll-mentions', '0.1.3'
 
