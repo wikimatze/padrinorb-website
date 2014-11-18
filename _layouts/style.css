@@ -10,3 +10,9 @@
 .hierarchy, .tags {
   font-size: 90%;
 }
+
+.current {
+  border-radius: 3px;
+  background-color: #ff0000;
+}
+
