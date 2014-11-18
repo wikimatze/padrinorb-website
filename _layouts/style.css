@@ -1,2 +1,8 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
+
+.author {
+  font-size: 85%;
+  color: #bdbbbb;
+  margin: 0 0 1em 0;
+}
