@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Ruby, Faqs
-tags: padrino, ruby, sinatra, omniauth
+categories: ruby, faqs, omniauth
 title: Padrino and OmniAuth Overview
 ---
 

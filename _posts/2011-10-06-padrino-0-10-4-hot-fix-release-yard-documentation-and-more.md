@@ -1,8 +1,7 @@
 ---
 author: Nathan
 email: nesquena@gmail.com
-categories: Update
-tags: padrino, release
+categories: update
 title: Padrino 0.10.4 - Hot Fix Release, YARD Documentation, and more
 ---
 

@@ -1,7 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-tags: padrino, ruby, sinatra
+categories: padrino, ruby, sinatra
 title: Padrino Slides
 ---
 

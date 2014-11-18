@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Update
-tags: padrino, updates, screencasts
+categories: update, screencasts
 title: Padrino User Resources and Screencasts
 ---
 

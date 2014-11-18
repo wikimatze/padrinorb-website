@@ -1,7 +1,7 @@
 ---
 author: Nathan
 email: nesquena@gmail.com
-tags: padrino, codeschool
+categories: padrino, codeschool
 title: Code TV - Padrino Code School
 ---
 

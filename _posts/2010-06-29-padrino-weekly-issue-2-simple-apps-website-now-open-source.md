@@ -1,8 +1,7 @@
 ---
 author: Florian
 email: florian.gilcher@asquera.de
-categories: Update
-tags: ''
+categories: update
 title: 'Padrino Weekly, Issue 2: Simple apps, Website now Open Source'
 ---
 

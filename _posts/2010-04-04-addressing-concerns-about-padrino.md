@@ -2,8 +2,7 @@
 title: Addressing Concerns about Padrino
 author: Nathan
 email: nesquena@gmail.com
-categories: Ruby
-tags: padrino, concerns, questions
+categories: ruby
 ---
 
 Over the last week, we have taken the first steps towards showing Padrino to a larger audience of Ruby and Sinatra fans. Our team and other developers have gotten around to announcing Padrino on [RubyInside](http://www.rubyinside.com/padrino-sinatra-webapp-framework-3198.html), [Rubyflow](http://rubyflow.com/items/3665), [the Ruby5 Podcast](http://ruby5.envylabs.com/episodes/64-episode-62-march-26-2010), [Hacker News](http://news.ycombinator.com/item?id=1235078), [the Sinatra Google Group](http://groups.google.com/group/sinatrarb/browse_thread/thread/ee691be6213cf0a1/3471ff1def80b062?pli=1), among other sources.

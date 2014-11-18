@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Press, Ruby, Faqs
-tags: welcome, introduction
+categories: press, ruby, faqs
 title: Introducing Padrino!
 ---
 

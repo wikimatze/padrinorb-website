@@ -1,8 +1,7 @@
 ---
 author: Nathan
 email: nesquena@gmail.com
-categories: Update
-tags: padrino, sinatra, ruby
+categories: update
 title: Padrino 0.9.28 - Reloader, Compatibility and Bug Fixes
 ---
 

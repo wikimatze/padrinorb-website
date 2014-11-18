@@ -1,8 +1,7 @@
 ---
 author: Arthur
 email: mr.arthur.chiu@gmail.com
-categories: Ruby, Update
-tags: padrino, sinatra, ruby
+categories: ruby, update
 title: Padrino 0.10.0 - Routing Upgrades, Rbx and JRuby Support, and Minor Breaking
   Changes
 ---

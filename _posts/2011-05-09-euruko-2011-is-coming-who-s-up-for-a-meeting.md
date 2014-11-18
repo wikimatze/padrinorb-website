@@ -1,8 +1,7 @@
 ---
 author: Florian
 email: florian.gilcher@asquera.de
-categories: Update
-tags: conferences, fun, enjoyment
+categories: update, conferences, fun, enjoyment
 title: EuRuKo 2011 is coming, who's up for a meeting?
 ---
 

@@ -1,8 +1,7 @@
 ---
 author: Arthur
 email: mr.arthur.chiu@gmail.com
-categories: Press
-tags: sinatra, book, oreilly
+categories: press, book, oreilly
 title: O'Reilly Sinatra - Up and Running Book!
 ---
 

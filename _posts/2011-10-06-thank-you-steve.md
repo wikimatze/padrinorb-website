@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Press
-tags: Steve Jobs, Apple
+categories: press, apple
 title: Thank you Steve
 ---
 

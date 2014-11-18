@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Update
-tags: padrino, ruby, admin
+categories: update
 title: Padrino 0.9.16 - Important Hotfixes to the Admin
 ---
 

@@ -1,8 +1,7 @@
 ---
 author: Nathan
 email: nesquena@gmail.com
-categories: Ruby, Update
-tags: padrino, release
+categories: ruby, update
 title: Padrino 0.9.29 - Stability, compatibility and bug fix release
 ---
 

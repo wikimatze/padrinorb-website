@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Ruby, Update
-tags: padrino, sinatra, ruby
+categories: ruby, update
 title: Padrino 0.9.27 - Project settings, routing, compatibility and bug fixes
 ---
 

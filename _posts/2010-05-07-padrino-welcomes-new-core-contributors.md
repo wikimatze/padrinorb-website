@@ -1,8 +1,7 @@
 ---
 author: Nathan
 email: nesquena@gmail.com
-categories: Ruby, Update
-tags: padrino, team, core
+categories: ruby, update
 title: Padrino Welcomes New Core Contributors!
 ---
 

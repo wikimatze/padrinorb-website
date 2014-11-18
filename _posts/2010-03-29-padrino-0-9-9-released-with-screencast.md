@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Ruby
-tags: padrino, screencast, news
+categories: ruby
 title: Padrino 0.9.9 Released with Screencast
 ---
 

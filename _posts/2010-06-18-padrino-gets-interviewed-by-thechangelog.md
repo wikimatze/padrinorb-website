@@ -1,8 +1,7 @@
 ---
 author: Nathan
 email: nesquena@gmail.com
-categories: Press, Ruby, Update
-tags: padrino, press, audio, podcast
+categories: press, ruby, update
 title: Padrino Gets Interviewed by thechangelog!
 ---
 

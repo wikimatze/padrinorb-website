@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Update
-tags: padrino, sinatra, ruby
+categories: update
 title: Looking at Projects using Padrino
 ---
 

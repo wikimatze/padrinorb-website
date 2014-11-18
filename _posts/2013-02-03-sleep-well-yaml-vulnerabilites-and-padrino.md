@@ -2,7 +2,6 @@
 author: Florian
 email: florian.gilcher@asquera.de
 categories: Update
-tags: ''
 title: 'Sleep well: YAML vulnerabilites and Padrino'
 ---
 

@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Press, Ruby, Update
-tags: padrino, ruby, sinatra
+categories: press, ruby, update
 title: Padrino 0.9.19 - Sinatra 1.1 compat, Screencast!
 ---
 

@@ -1,9 +1,8 @@
 ---
-title: Darío Cravero joins the Padrino Core Team
 author: Arthur
 email: mr.arthur.chiu@gmail.com
-categories: Update
-tags: padrino, team, update
+categories: update, team
+title: Darío Cravero joins the Padrino Core Team
 ---
 
 [Darío Cravero](https://github.com/dariocravero) has been helping with Padrino and has been [creating useful extensions](https://github.com/dariocravero/declarative_authorization_padrino). Having submitted several pull requests and consistently helping us to keep up with the flow of new issues in our [issue tracker](https://github.com/padrino/padrino-framework/issues) he agreed to join the Padrino core team.

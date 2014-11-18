@@ -1,8 +1,7 @@
 ---
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
-categories: Ruby, Update
-tags: padrino, ruby, sinatra
+categories: ruby, update
 title: Padrino 0.9.23 - Sinatra 1.2 Compatibility
 ---
 

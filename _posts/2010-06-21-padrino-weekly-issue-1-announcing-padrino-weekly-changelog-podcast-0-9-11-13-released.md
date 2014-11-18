@@ -1,8 +1,7 @@
 ---
 author: Florian
 email: florian.gilcher@asquera.de
-categories: Update
-tags: padrino weekly
+categories: update
 title: 'Padrino Weekly, Issue 1: Announcing Padrino Weekly, Changelog Podcast, 0.9.11
   - .13 Released'
 ---

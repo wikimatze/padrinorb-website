@@ -1,8 +1,7 @@
 ---
 author: Arthur
 email: mr.arthur.chiu@gmail.com
-categories: Ruby, Update
-tags: padrino, release, version, plugins, templates, ohm, mongomatic, hudson
+categories: ruby, update
 title: Padrino 0.9.15 Release! New Core Member!
 ---
 

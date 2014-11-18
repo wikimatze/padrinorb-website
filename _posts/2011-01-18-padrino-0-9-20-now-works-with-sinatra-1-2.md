@@ -1,8 +1,7 @@
 ---
 author: Nathan
 email: nesquena@gmail.com
-categories: Update
-tags: padrino, sinatra, ruby
+categories: update
 title: Padrino 0.9.20 - now works with Sinatra 1.2
 ---
 
