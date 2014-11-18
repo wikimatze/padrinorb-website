@@ -1,8 +1,12 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 
-.author {
+.author, .hierarchy, .tags {
   font-size: 85%;
   color: #bdbbbb;
   margin: 0 0 1em 0;
+}
+
+.hierarchy, .tags {
+  font-size: 90%;
 }

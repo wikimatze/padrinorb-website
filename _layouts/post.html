@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+    <body id="page-top" class="index">
+
+    {% include header_posts.html %}
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <h2 class="section-heading">{{ page.title}}</h2>
+                    <div class="author">
+                      Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time>
+                      {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} by {{ page.author }}
+                    </div>
+                  <p class="text-muted">{{ content }}</p>
+
+                  <div class="hierarchy pull-right">Hierarchy:
+                    {% if page.previous %}
+                    <a class="label label-default" href="{{ page.previous.url }}" title="Previous post">previous post</a>
+                    {% endif %}
+
+                    {% if page.next %}
+                    {% if page.previous %}, {% endif %}<a class="label label-default" href="{{ page.next.url }}" title="Next post">next post</a>
+                    {% endif %}
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    {% include contribute.html %}
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>
+
+
