@@ -7,7 +7,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                   <h2 class="section-heading">{{ page.title}}</h2>
                     <div class="author">
                       Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time>
@@ -15,6 +15,33 @@
                     </div>
 
                   <p class="text-muted">{{ content }}</p>
+                </div>
+                <div class="col-lg-4">
+                  <h2 class="section-heading">Guides Index</h2>
+                  <p class="text-muted">
+                    <ul>
+                      <li><a href="/guides/home">Home</a></li>
+                      <li><a href="/guides/getting-started">Getting Started</a></li>
+                      <li><a href="/guides/installation">Installation</a></li>
+                      <li><a href="/guides/basic-projects">Basic Projects</a></li>
+                      <li><a href="/guides/generators">Generators</a></li>
+                      <li><a href="/guides/development-commands">Development Commands</a></li>
+                      <li><a href="/guides/mounting-applications">Mounting Applications</a></li>
+                      <li><a href="/guides/blog-tutorial">Blog Tutorial</a></li>
+                      <li><a href="/guides/application-helpers">Application Helpers</a></li>
+                      <li><a href="/guides/padrino-admin">Padrino Admin</a></li>
+                      <li><a href="/guides/padrino-mailer">Padrino Mailer</a></li>
+                      <li><a href="/guides/padrino-cache">Padrino Cache</a></li>
+                      <li><a href="/guides/controllers">Controllers</a></li>
+                      <li><a href="/guides/localization">Localization</a></li>
+                      <li><a href="/guides/extensions">Extensions</a></li>
+                      <li><a href="/guides/rake-tasks">Rake Tasks</a></li>
+                      <li><a href="/guides/the-bleeding-edge">The Bleeding Edge</a></li>
+                      <li><a href="/guides/adding-new-components">Adding New Components</a></li>
+                      <li><a href="/guides/standalone-usage-in-sinatra">Standalone Usage in Sinatra</a></li>
+                      <li><a href="/guides/running-padrino-on-jruby">Running Padrino on JRuby</a></li>
+                    </ul>
+                  </p>
                 </div>
             </div>
         </div>
