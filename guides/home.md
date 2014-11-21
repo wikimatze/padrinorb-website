@@ -1,12 +1,13 @@
 ---
 date: 2010-03-01
+update: 2014-11-21
 author: Nathan
 email: nesquena@gmail.com
 title: Home
+permalink: /guides/home/
 ---
 
 Padrino is a Ruby framework built upon the excellent [Sinatra](http://www.sinatrarb.com/) web library. Sinatra is a DSL for creating simple web applications in Ruby with minimal effort. This framework makes it as fun and easy as possible to code increasingly advanced web applications by enhancing Sinatra while staying true to the spirit that makes it great.
-
  
 
 ## Features
@@ -28,7 +29,6 @@ Here is a list of major functionality Padrino provides on top of Sinatra:
 |**Logging:**|Provide a unified logger that can interact with your ORM or any library.|
 |**Reloading:**|Automatically reloads server code during development.|
 |**Localization:**|Full support of I18n||
-
  
 
 ## Guides
@@ -37,16 +37,19 @@ When getting started with Sinatra or Padrino for the first time, we recommend th
 
 Padrino consists of multiple modules which enhance Sinatra in different ways. The major components are described in detail below:
 
--   [Getting Started](/guides/getting-started)
--   [Generators](/guides/generators)
--   [Application Helpers](/guides/application-helpers)
--   [Controllers and Routing](/guides/controllers)
--   [Development and Terminal Commands](/guides/development-commands)
--   [Mounting Sub-applications](/guides/mounting-applications)
--   [Delivering Mail](/guides/padrino-mailer)
--   [Admin and Authentication](/guides/padrino-admin)
--   [Site Caching](/guides/caching-support)
+- [Getting Started](/guides/getting-started)
+- [Generators](/guides/generators)
+- [Application Helpers](/guides/application-helpers)
+- [Controllers and Routing](/guides/controllers)
+- [Development and Terminal Commands](/guides/development-commands)
+- [Mounting Sub-applications](/guides/mounting-applications)
+- [Delivering Mail](/guides/padrino-mailer)
+- [Admin and Authentication](/guides/padrino-admin)
+- [Site Caching](/guides/caching-support)
+
 
 Note that as a user of Padrino, each of the major components can be used [standalone](/guides/standalone-usage-in-sinatra) in an existing Sinatra application or used together for a full-stack Padrino project.
 
+
 These guides should provide a pretty good overview but if you have any questions be sure to contact us: [@padrinorb](http://twitter.com/#!/padrinorb), discuss things on the [google groups](https://groups.google.com/forum/?hl=en#!forum/padrino), join us on freenode IRC at “\#padrinorb” or [open an issue](https://github.com/padrino/padrino-framework/issues) on GitHub.
+
