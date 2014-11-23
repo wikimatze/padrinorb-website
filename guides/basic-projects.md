@@ -3,6 +3,7 @@ date: 2010-03-01
 update: 2014-11-21
 author: Uchio
 email: udzura@udzura.jp
+title: Basic Projects
 permalink: /guides/basic-projects/
 ---
 
