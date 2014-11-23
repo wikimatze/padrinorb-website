@@ -105,7 +105,7 @@ Padrino has rake tasks for *DataMapper* , *ActiveRecord*, *Sequel*, *Mongomapper
 **NOTE**: we have a **namespace** for each orm, because of this, Padrino can mount several applications and each of them can use different orms without conflict, so that you can have multiple applications living together and one of them can use DataMapper, while another *ActiveRecord/MongoMapper/Couch/Sequel* instead. In this way we prevent collisions.
 
 
-#### ActiveRecord Tasks:
+### ActiveRecord Tasks:
 
 
 ```ruby
@@ -143,7 +143,7 @@ This is some sort of super cool and useful task for people like me who don’t l
 Basically, instead of writing migrations you can directly edit your **schema.rb** and perform *a non destructive* migration with `padrino rake ar:auto:upgrade`.
 
 
-#### DataMapper Tasks:
+### DataMapper Tasks:
 
 
 ```sh
@@ -159,7 +159,7 @@ rake dm:setup                  # Create the database migrate and initialize with
 ```
 
 
-#### Sequel Tasks:
+### Sequel Tasks:
 
 ```sh
 rake sq:migrate:auto           # Perform automigration (reset your db data)
@@ -170,14 +170,14 @@ rake sq:reset                  # Drops the database, and migrates from scratch
 ```
 
 
-#### Mongomapper Tasks:
+### Mongomapper Tasks:
 
 ```sh
 rake mm:translate              # Generates .yml files for I18n translations
 ```
 
 
-#### Mongoid Tasks:
+### Mongoid Tasks:
 
 Available in 0.9.21
 
@@ -189,7 +189,7 @@ rake mi:cleanup_old_collections # Clean up old collections backed up by objectid
 ```
 
 
-#### Seed:
+### Seed:
 
 Like in Rails we can populate our db using *db/seeds.rb* here’s an example (from our padrino-admin):
 
