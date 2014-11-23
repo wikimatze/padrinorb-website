@@ -43,3 +43,6 @@ ul#toc ul {
   list-style: disc;
 }
 
+.navbar-default {
+    background-color: #222;
+}
