@@ -14,12 +14,13 @@
                       {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} by {{ page.author }}
                     </div>
 
-                  <p class="text-muted">{{ content }}</p>
+                    <p class="text-muted">
+                      {{ content }}</p>
                 </div>
                 <div class="col-lg-4">
-                  <h2 class="section-heading">Guides Index</h2>
+                  <span class="heading-sidebar">Guides Index</span>
                   <p class="text-muted">
-                    <ul>
+                    <ul class="guides">
                       <li><a href="/guides/home">Home</a></li>
                       <li><a href="/guides/getting-started">Getting Started</a></li>
                       <li><a href="/guides/installation">Installation</a></li>
@@ -42,9 +43,13 @@
                       <li><a href="/guides/running-padrino-on-jruby">Running Padrino on JRuby</a></li>
                     </ul>
                   </p>
+                  <div class="vertical-offset-toc">
+                  <span class="heading-sidebar">Table of Contents</span>
+                    <ul id="toc"></ul>
                 </div>
             </div>
         </div>
+    </div>
 
     {% include footer.html %}
 
