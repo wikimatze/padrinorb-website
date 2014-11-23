@@ -2,7 +2,6 @@
 {% include css/pygments.css %}
 {% include css/agency.css %}
 
-
 .author, .hierarchy, .tags {
   font-size: 85%;
   color: #bdbbbb;
@@ -16,5 +15,9 @@
 .current {
   border-radius: 3px;
   background-color: #ff0000;
+  font: 20px
 }
 
+.vertical-offset-top{
+  margin-top: 10em;
+}
