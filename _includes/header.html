@@ -74,8 +74,8 @@ padrino start
             </div>
             <div class="col-lg-3">
               <ul class="features">
-                <li><a rel="popup" class="alternate" href="#feature-4b8e5bc6401c8c72a500000c">SINATRA CORE</a></li>
-                <li><a rel="popup" href="#feature-4b8e5c65401c8c72a5000015">DROP-IN ADMIN</a></li>
+                <li><a rel="popup" class="alternate" data-toggle="modal" data-target="#sinatraCore" href="#">SINATRA CORE</a></li>
+                <li><a rel="popup" data-toggle="modal" data-target="#dropInAdmin" href="#">DROP-IN ADMIN</a></li>
                 <li><a rel="popup" class="alternate" href="#feature-4b952110401c8c7266000001">LIGHTWEIGHT</a></li>
                 <li><a rel="popup" href="#feature-4b951651401c8c78f4000002">AGNOSTIC</a></li>
                 <li><a rel="popup" class="alternate" href="#feature-4b952693401c8c0c10000002">COMPREHENSIVE</a></li>
@@ -86,6 +86,83 @@ padrino start
               <p><a class="btn btn-xl btn-lg" href="/guides" role="button">Learn more</a></p>
             </div>
           </div>
+
+        <!-- Sinatra Core Toogle -->
+        <div class="modal fade" id="sinatraCore" tabindex="-1" role="dialog" aria-labelledby="sinatraCoreLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="sinatraCoreLabel">Sinatra Core</h4>
+              </div>
+              <div class="modal-body">
+                Many people love the simplicity and expressiveness of Sinatra but quickly find themselves missing a great deal of functionality provided by other web frameworks such as Rails when building non-trivial applications.
+                <br><br>
+
+                Sinatra acts as a thin layer on top of Rack itself and the “micro”-framework is kept light introducing complexities only when required by the particular application. Our goal with Padrino is to stay true to the core principles of Sinatra including a focus on simplicity and modularity.
+                <br><br>
+
+                Starting from this assumption, we have developed a different approach to a web development framework. We expand on Sinatra through the addition of standard libraries including helpers, components, and other functionality that are needed in a framework suitable for arbitrarily complex web applications.
+                <br><br>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- drop In Admin Toogle -->
+        <div class="modal fade" id="dropInAdmin" tabindex="-1" role="dialog" aria-labelledby="dropInAdminLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="dropInAdminLabel">Drop-in Admin</h4>
+              </div>
+              <div class="modal-body">
+                Padrino ships with an Admin Interface that includes the following features:
+                <br><br>
+                <table>
+                  <tbody><tr>
+                      <td> Orm Agnostic </td>
+                      <td> Adapters for datamapper, activerecord, sequel, mongomapper, mongoid </td>
+                    </tr>
+                    <tr>
+                      <td> Authentication </td>
+                      <td> Account authentication support and permission management </td>
+                    </tr>
+                    <tr>
+                      <td> Template Agnostic </td>
+                      <td> View support for Erb and Haml rendering engines </td>
+                    </tr>
+                    <tr>
+                      <td> Scaffold </td>
+                      <td> Create a model “admin interface” by invoking a command </td>
+                    </tr>
+                    <tr>
+                      <td> MultiLanguage </td>
+                      <td> Translated into 10 languages including English, Spanish, and Italian </td>
+                    </tr>
+                </tbody></table>
+                <br><br>
+                Example:
+
+                <div class="highlight header-text"><pre><code data-lang="sh" class="language-sh"><span class="nv">$ </span>padrino-gen project cool --orm activerecord
+<span class="nb">cd </span>cool
+<span class="nv">$ </span>padrino-gen admin
+<span class="nv">$ </span>padrino-gen admin page post
+</code></pre></div>
+
+              For usage information, check out our detailed <a href="/guides/padrino-admin">admin guide</a>.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         </div>
       </div>
     </header>
