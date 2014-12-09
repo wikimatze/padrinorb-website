@@ -65,6 +65,17 @@ ul#toc ul {
   text-align: left;
 }
 
+.modal-title,
+.modal-body
+{
+  text-align: left;
+  color: black;
+}
+
+.feature td {
+  border-bottom: 1px solid #cfcfcf;
+  padding: 5px 10px;
+}
 
 ul.features {
   font-size: 28px;
