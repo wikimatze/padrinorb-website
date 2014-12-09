@@ -52,3 +52,39 @@ ul#toc ul {
 .navbar-default {
     background-color: #222;
 }
+
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    height: 70px;
+    line-height: 20px;
+    padding: 0;
+}
+
+.header-text {
+  text-align: left;
+}
+
+
+ul.features {
+  font-size: 28px;
+  letter-spacing: -3px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-top: 1.5em;
+  text-align: right;
+}
+ul.features a {
+  color: #393939;
+}
+ul.features a.alternate {
+  color: #4d4d4d;
+}
+ul.features a:hover {
+  color: #000;
+  text-decoration: none;
+}
+ul.features li {
+  margin: 0;
+  padding: 0;
+}

@@ -53,12 +53,40 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Padrino</div>
-                <div class="intro-heading">The Elegant Ruby Web Framework</div>
-                <a href="#features" class="page-scroll btn btn-xl">Tell Me More</a>
+      <div class="jumbotron">
+        <div class="container vertical-offset-top">
+          <div class="row pull-right">
+            <span class="slogan">The Elegant Ruby Web Framework</span>
+          </div>
+          <div class="row"></div>
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="/img/logo.png">
             </div>
+            <div class="col-lg-5">
+              <div class="highlight header-text"><pre><code data-lang="sh" class="language-sh">gem install padrino
+padrino g project myapp -d datamapper -b
+<span class="nb">cd </span>myapp
+padrino g admin
+padrino rake dm:migrate seed
+padrino start
+</code></pre></div>
+            </div>
+            <div class="col-lg-3">
+              <ul class="features">
+                <li><a rel="popup" class="alternate" href="#feature-4b8e5bc6401c8c72a500000c">SINATRA CORE</a></li>
+                <li><a rel="popup" href="#feature-4b8e5c65401c8c72a5000015">DROP-IN ADMIN</a></li>
+                <li><a rel="popup" class="alternate" href="#feature-4b952110401c8c7266000001">LIGHTWEIGHT</a></li>
+                <li><a rel="popup" href="#feature-4b951651401c8c78f4000002">AGNOSTIC</a></li>
+                <li><a rel="popup" class="alternate" href="#feature-4b952693401c8c0c10000002">COMPREHENSIVE</a></li>
+              </ul>
+            </div>
+          <div class="row">
+            <div class="intro-text">
+              <p><a class="btn btn-xl btn-lg" href="/guides" role="button">Learn more</a></p>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
 
