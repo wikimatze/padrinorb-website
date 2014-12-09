@@ -2,6 +2,12 @@
 {% include css/pygments.css %}
 {% include css/agency.css %}
 
+
+.slogan {
+  font-size: 24px;
+  color: black;
+}
+
 .author, .hierarchy, .tags {
   font-size: 85%;
   color: #bdbbbb;
