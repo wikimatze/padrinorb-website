@@ -13,6 +13,7 @@ Suppose we wanted to add routes to our Padrino application, and we want to organ
 ```ruby
 # app/controllers/main.rb or controllers.rb
 SimpleApp.controller do
+# url_for(:admin, :other, :id => 5, :name => "hey") => "/admin/other/5/hey"
   get "/test" do
     "Text to return"
   end
@@ -20,6 +21,7 @@ SimpleApp.controller do
   get "/sample" do
     "Sample Route"
   end
+
 end
 ```
 

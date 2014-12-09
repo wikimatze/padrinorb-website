@@ -5,6 +5,16 @@ categories: update
 title: Padrino 0.11.0 Released - Padrino Lives!
 ---
 
+
+```sh
+gem install padrino
+padrino g project myapp -d datamapper -b
+cd myapp
+padrino g admin
+padrino rake dm:migrate seed
+padrino start
+```
+
 The Padrino team is very pleased to finally be able to announce the 0.11.0 release of the Padrino Framework! We have been working on this release for almost a year now and we have had dozens of contributors helping us stabilize Padrino. We know our release cycle got out whack and this version took too long to release. We all take accountability for that and will work to pick up release momentum and release patch and minor versions more often.
 
 Since our 0.10.7 release, development on Padrino has been moving forward very actively and as such this is probably our biggest release in terms of code modified and issues resolved that we have had in years. We are very proud of this release which includes several major improvements:
