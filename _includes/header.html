@@ -77,7 +77,7 @@ padrino start
                 <li><a rel="popup" class="alternate" data-toggle="modal" data-target="#sinatraCore" href="#">SINATRA CORE</a></li>
                 <li><a rel="popup" data-toggle="modal" data-target="#dropInAdmin" href="#">DROP-IN ADMIN</a></li>
                 <li><a rel="popup" class="alternate" data-toggle="modal" data-target="#lightweight" href="#">LIGHTWEIGHT</a></li>
-                <li><a rel="popup" href="#feature-4b951651401c8c78f4000002">AGNOSTIC</a></li>
+                <li><a rel="popup" data-toggle="modal" data-target="#agnostic" href="#">AGNOSTIC</a></li>
                 <li><a rel="popup" class="alternate" href="#feature-4b952693401c8c0c10000002">COMPREHENSIVE</a></li>
               </ul>
             </div>
@@ -196,29 +196,62 @@ padrino start
         </div>
 
         <!-- Agnostic Toogle -->
-        <div class="modal fade" id="lightweight" tabindex="-1" role="dialog" aria-labelledby="lightweightLabel" aria-hidden="true">
+        <div class="modal fade" id="agnostic" tabindex="-1" role="dialog" aria-labelledby="agnosticLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="lightweightLabel">Lightweight</h4>
+                <h4 class="modal-title" id="agnosticLabel">Agnostic</h4>
               </div>
               <div class="modal-body">
-                The Padrino code base has been kept simple and easy to understand, maintain and enhance. The generator for each new project creates a clean and compact directory structure keeping
-                <strong>your</strong>
-                code simple and well organized.
+                Padrino is <b>orm</b>, <b>javascript</b>, <b>testing</b>, <b>rendering</b>, <b>mocking</b> agnostic supporting the use of any number of available libraries.
                 <br><br>
-                Padrino strives to adhere to the following basic principles:
-                <ul>
-                  <li>Tiny</li>
-                  <li>Clean</li>
-                  <li>Compact</li>
-                  <li>Fast</li>
-                  <li>Creative</li>
-                  <li>Concise</li>
-                </ul>
+                The available components and their defaults are listed below:
                 <br><br>
-                This framework can be used with ease for web development for a project of any size from your lightweight json web service to a large full-stack web application!
+                <table class="table table-striped">
+                  <tbody><tr>
+                      <th>Component </th>
+                      <th>Default </th>
+                      <th>Options </th>
+                    </tr>
+                    <tr>
+                      <td> orm </td>
+                      <td> none </td>
+                      <td> activerecord, datamapper, mongomapper, mongoid, sequel, couchrest </td>
+                    </tr>
+                    <tr>
+                      <td> script </td>
+                      <td> none </td>
+                      <td> prototype, rightjs, jquery, mootools, extcore </td>
+                    </tr>
+                    <tr>
+                      <td> renderer </td>
+                      <td> slim </td>
+                      <td> erb, haml, slim </td>
+                    </tr>
+                    <tr>
+                      <td> test </td>
+                      <td> none </td>
+                      <td> bacon, shoulda, cucumber, riot, rspec </td>
+                    </tr>
+                    <tr>
+                      <td> stylesheet </td>
+                      <td> none </td>
+                      <td> less, sass, scss, compass </td>
+                    </tr>
+                    <tr>
+                      <td> mock </td>
+                      <td> none </td>
+                      <td> rr, mocha </td>
+                    </tr>
+                </tbody></table>
+                Just create the project with the usual generator command and pass in your preferred components!
+                <br><br>
+                <div class="highlight header-text"><pre><code data-lang="sh" class="language-sh"><span class="nv">$ </span>padrino g project cool --orm datamapper
+<span class="nv">$ </span>padrino g project cool --renderer haml --stylesheet sass
+<span class="nv">$ </span>padrino g project cool --script mootools
+<span class="nv">$ </span>padrino g project cool --orm mongoid --script mootools
+<span class="nv">$ </span>padrino g project -h <span class="c"># shows available options</span></code></pre></div>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
