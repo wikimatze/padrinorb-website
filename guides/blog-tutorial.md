@@ -18,10 +18,6 @@ There is also a screencast available for this tutorial. You can check it out by:
 
 - [Watching it on Vimeo](http://vimeo.com/10522357) (Low Resolution)
 - [Downloading the file](http://padrino.s3.amazonaws.com/screencast_1.mov) (211 Mb, 12:00 in [Quicktime](http://www.apple.com/quicktime/download))
-
-
-There is a poll on [PeepCode](http://suggestions.peepcode.com/forums/15-general/suggestions/1064769-padrino) so please [VOTE](http://suggestions.peepcode.com/forums/15-general/suggestions/1064769-padrino) for our new [Screencast](http://suggestions.peepcode.com/forums/15-general/suggestions/1064769-padrino)!
-
  
 
 ## Study Guide
