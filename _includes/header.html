@@ -78,7 +78,7 @@ padrino start
                 <li><a rel="popup" data-toggle="modal" data-target="#dropInAdmin" href="#">DROP-IN ADMIN</a></li>
                 <li><a rel="popup" class="alternate" data-toggle="modal" data-target="#lightweight" href="#">LIGHTWEIGHT</a></li>
                 <li><a rel="popup" data-toggle="modal" data-target="#agnostic" href="#">AGNOSTIC</a></li>
-                <li><a rel="popup" class="alternate" href="#feature-4b952693401c8c0c10000002">COMPREHENSIVE</a></li>
+                <li><a rel="popup" class="alternate" data-toggle="modal" data-target="#comprehensive" href="#">COMPREHENSIVE</a></li>
               </ul>
             </div>
           <div class="row">
@@ -123,29 +123,28 @@ padrino start
               <div class="modal-body">
                 Padrino ships with an Admin Interface that includes the following features:
                 <br><br>
-                <table class="feature">
+                <table class="table table-striped">
                   <tbody><tr>
-                      <td> Orm Agnostic </td>
-                      <td> Adapters for datamapper, activerecord, sequel, mongomapper, mongoid </td>
+                      <td>Orm Agnostic</td>
+                      <td>Adapters for datamapper, activerecord, sequel, mongomapper, mongoid</td>
                     </tr>
                     <tr>
-                      <td> Authentication </td>
-                      <td> Account authentication support and permission management </td>
+                      <td>Authentication </td>
+                      <td>Account authentication support and permission management</td>
                     </tr>
                     <tr>
-                      <td> Template Agnostic </td>
-                      <td> View support for Erb and Haml rendering engines </td>
+                      <td>Template Agnostic</td>
+                      <td>View support for Erb and Haml rendering engines</td>
                     </tr>
                     <tr>
-                      <td> Scaffold </td>
-                      <td> Create a model “admin interface” by invoking a command </td>
+                      <td>Scaffold</td>
+                      <td>Create a model “admin interface” by invoking a command</td>
                     </tr>
                     <tr>
-                      <td> MultiLanguage </td>
-                      <td> Translated into 10 languages including English, Spanish, and Italian </td>
+                      <td>MultiLanguage</td>
+                      <td>Translated into 10 languages including English, Spanish, and Italian</td>
                     </tr>
                 </tbody></table>
-                <br><br>
                 Example:
 
                 <div class="highlight header-text"><pre><code data-lang="sh" class="language-sh"><span class="nv">$ </span>padrino-gen project cool --orm activerecord
@@ -210,39 +209,39 @@ padrino start
                 <br><br>
                 <table class="table table-striped">
                   <tbody><tr>
-                      <th>Component </th>
-                      <th>Default </th>
-                      <th>Options </th>
+                      <th>Component</th>
+                      <th>Default</th>
+                      <th>Options</th>
                     </tr>
                     <tr>
-                      <td> orm </td>
-                      <td> none </td>
-                      <td> activerecord, datamapper, mongomapper, mongoid, sequel, couchrest </td>
+                      <td>orm</td>
+                      <td>none</td>
+                      <td>activerecord, datamapper, mongomapper, mongoid, sequel, couchrest</td>
                     </tr>
                     <tr>
-                      <td> script </td>
-                      <td> none </td>
-                      <td> prototype, rightjs, jquery, mootools, extcore </td>
+                      <td>script</td>
+                      <td>none</td>
+                      <td>prototype, rightjs, jquery, mootools, extcore</td>
                     </tr>
                     <tr>
-                      <td> renderer </td>
-                      <td> slim </td>
-                      <td> erb, haml, slim </td>
+                      <td>renderer</td>
+                      <td>slim</td>
+                      <td>erb, haml, slim</td>
                     </tr>
                     <tr>
-                      <td> test </td>
-                      <td> none </td>
-                      <td> bacon, shoulda, cucumber, riot, rspec </td>
+                      <td>test</td>
+                      <td>none</td>
+                      <td>bacon, shoulda, cucumber, riot, rspec</td>
                     </tr>
                     <tr>
-                      <td> stylesheet </td>
-                      <td> none </td>
-                      <td> less, sass, scss, compass </td>
+                      <td>stylesheet</td>
+                      <td>none</td>
+                      <td>less, sass, scss, compass</td>
                     </tr>
                     <tr>
-                      <td> mock </td>
-                      <td> none </td>
-                      <td> rr, mocha </td>
+                      <td>mock</td>
+                      <td>none</td>
+                      <td>rr, mocha</td>
                     </tr>
                 </tbody></table>
                 Just create the project with the usual generator command and pass in your preferred components!
@@ -253,6 +252,72 @@ padrino start
 <span class="nv">$ </span>padrino g project cool --orm mongoid --script mootools
 <span class="nv">$ </span>padrino g project -h <span class="c"># shows available options</span></code></pre></div>
               </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Comprehensive -->
+        <div class="modal fade" id="comprehensive" tabindex="-1" role="dialog" aria-labelledby="comprehensiveLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="comprehensiveLabel">Comprehensive</h4>
+              </div>
+              <div class="modal-body">
+                Building on our experience in developing web applications, we designed a framework that meets all the requirements for creating a top notch web application in a <em>clean</em>, <em>concise</em> and <em>simple environment</em>, with minimal <em>deadline</em> delays.
+                <br><br>
+                We provide you with the following out of the box:
+                <br><br>
+                <table class="table table-striped">
+                  <tbody><tr>
+                      <td style="text-align:right;"><strong>Agnostic:</strong> </td>
+                      <td> Full support for many popular testing, templating, mocking, and database libraries. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Generators:</strong> </td>
+                      <td> Create Padrino applications, models, controllers, admin. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Mountable:</strong> </td>
+                      <td> Unlike other ruby frameworks, principally designed for mounting multiple apps. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Routing:</strong> </td>
+                      <td> Full url named routes, named params, respond_to support, before/after filter support. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Helpers:</strong> </td>
+                      <td> Different helpers for generating tags, forms, links, images, and more. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Mailer:</strong> </td>
+                      <td> Fast and simple support for delivering emails. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Caching:</strong> </td>
+                      <td> Simple route and fragment caching to easily speed up your web requests. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Admin:</strong> </td>
+                      <td> Built-in admin interface (akin to Django) with authentication. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Logging:</strong> </td>
+                      <td> Provides a unified logger that can interact with your <span class="caps">ORM</span> or any library of your choice. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Reloading:</strong> </td>
+                      <td> Automatically reloads server code during development. </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align:right;"><strong>Localization:</strong> </td>
+                      <td> Full support for I18n localization. </td>
+                    </tr>
+                </tbody></table>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
