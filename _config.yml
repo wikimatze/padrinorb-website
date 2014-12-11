@@ -107,15 +107,15 @@ people:
       url: https://github.com/nesquena
 - name: Arthur Chiu
   pic: achiu
-  position: He enjoys programming, martial arts, and traveling when he has the time
+  position: He enjoys programming, martial arts, and traveling when he has the time.
   social:
     - title: twitter
-      url: https://twitter.com/achiu
+      url: https://twitter.com/arthur_chiu
     - title: github
       url: https://github.com/achiu
 - name: Florian Gilcher
   pic: florian
-  position: He uses his own mashup of Sinatra and many parts of Padrino for it
+  position: He uses his own mashup of Sinatra and many parts of Padrino for it.
   social:
     - title: twitter
       url: https://twitter.com/skade
