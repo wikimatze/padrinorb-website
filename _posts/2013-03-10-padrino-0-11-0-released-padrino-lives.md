@@ -3,8 +3,8 @@ author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: update
 title: Padrino 0.11.0 Released - Padrino Lives!
+update: 2014-12-11
 ---
-
 
 ```sh
 gem install padrino
@@ -19,21 +19,22 @@ The Padrino team is very pleased to finally be able to announce the 0.11.0 relea
 
 Since our 0.10.7 release, development on Padrino has been moving forward very actively and as such this is probably our biggest release in terms of code modified and issues resolved that we have had in years. We are very proud of this release which includes several major improvements:
 
-1) Totally Redesigned Admin
- 2) New brand identity on the way
- 3) Upgraded Sinatra and http\_router
- 4) CSRF Form Protection
- 5) ActiveSupport::SafeBuffer
- 6) New Rakefile format
- 7) Gemified Apps
- 8) Performance Tools
- 9) App Namespacing
- 10) Project Modules
- 11) Optimized Reloader
+
+1. Totally Redesigned Admin
+2. New brand identity on the way
+3. Upgraded Sinatra and http\_router
+4. CSRF Form Protection
+5. ActiveSupport::SafeBuffer
+6. New Rakefile format
+7. Gemified Apps
+8. Performance Tools
+9. App Namespacing
+10. Project Modules
+11. Optimized Reloader
+
 
 and a lot more changes! In the full post below, we will take you through a tour of the biggest changes in this release (for a more compact view, see our [changelog](http://www.padrinorb.com/changes)).
 
-<break>
 
 ## Redesigned Admin
 
@@ -41,27 +42,35 @@ We have introduced a number of exciting improvements to admin in this release. F
 
 This snowballed into a huge team effort so thanks to everyone involved [@WaYdotNET](https://github.com/WaYdotNET), [@DAddYE](https://github.com/DAddYE), [@dariocravero](https://github.com/dariocravero)), [@ujifgc](https://github.com/ujifgc), [@tyabe](https://github.com/tyabe) and several others! Here’s a few screenshots of our brand new admin pages:
 
-[![](http://i.imgur.com/DUO2SfU.png)](http://i.imgur.com/DUO2SfU.png) [![](http://i.imgur.com/QDAl4nu.png)](http://i.imgur.com/QDAl4nu.png)"
- [![](http://i.imgur.com/hPiOYqi.png)](http://i.imgur.com/hPiOYqi.png) [![](http://i.imgur.com/vcA6ZPV.png)](http://i.imgur.com/vcA6ZPV.png)"
+
+<img src="http://i.imgur.com/DUO2SfU.png" class="img-responsive" alt="Padrino Admin">
+<img src="http://i.imgur.com/QDAl4nu.png" class="img-responsive" alt="Padrino Admin Edit">
+<img src="http://i.imgur.com/hPiOYqi.png" class="img-responsive" alt="Padrino Admin List">
+<img src="http://i.imgur.com/vcA6ZPV.png" class="img-responsive" alt="Padrino Admin Home">
+
 
 See more images in the [Padrino Admin Album](http://imgur.com/a/gimrX)! Note that the new Padrino Admin has a responsive design that behaves well on tablets and mobile devices. Now you can even manage your admin data from your iPad!
 
 There were also several additional fixes for admin listed below:
 
--   Get the first key passed to expire helper. [commit](https://github.com/padrino/padrino-framework/commit/04d26c4a696e9eb50e247e308fad1d62d7ba7198) (Thanks [@gugat](https://github.com/gugat))
--   Fixes model output in erb templates. [commit](https://github.com/padrino/padrino-framework/commit/53358f588ed49d8838dc0082e30b2dcca36310ba) (Thanks [@sleepingstu](https://github.com/sleepingstu))
--   Halting page with 404 if record is not found [commit](https://github.com/padrino/padrino-framework/commit/a7b6b69ce9f309e3e8616b3ad2c8f561590f5170) (Thanks [@kot-begemot](https://github.com/@kot-begemot))
--   Cleanups to admin documentation. [commit](https://github.com/padrino/padrino-framework/commit/21146f6ffbedcce89b4ae23c48bba7c1bf8edc42) (Thanks [@danieltahara](https://github.com/danieltahara))
--   Fixes CSS Errors on admin pages. [commit](https://github.com/padrino/padrino-framework/commit/f5301722562972fd939dd2689549cbbd59c49a20) (Thanks [@dariocravero](https://github.com/dariocravero))
--   A lot more commits, this was a huge effort!
+- Get the first key passed to expire helper. [commit](https://github.com/padrino/padrino-framework/commit/04d26c4a696e9eb50e247e308fad1d62d7ba7198) (Thanks [@gugat](https://github.com/gugat))
+- Fixes model output in erb templates. [commit](https://github.com/padrino/padrino-framework/commit/53358f588ed49d8838dc0082e30b2dcca36310ba) (Thanks [@sleepingstu](https://github.com/sleepingstu))
+- Halting page with 404 if record is not found [commit](https://github.com/padrino/padrino-framework/commit/a7b6b69ce9f309e3e8616b3ad2c8f561590f5170) (Thanks [@kot-begemot](https://github.com/@kot-begemot))
+- Cleanups to admin documentation. [commit](https://github.com/padrino/padrino-framework/commit/21146f6ffbedcce89b4ae23c48bba7c1bf8edc42) (Thanks [@danieltahara](https://github.com/danieltahara))
+- Fixes CSS Errors on admin pages. [commit](https://github.com/padrino/padrino-framework/commit/f5301722562972fd939dd2689549cbbd59c49a20) (Thanks [@dariocravero](https://github.com/dariocravero))
+- A lot more commits, this was a huge effort!
+
 
 ## New brand identity on the way
 
 We have started to rebrand ourselves, thanks to [@tomatuxtemple](https://github.com/tomatuxtemple) we are getting there!.. Welcome the new logo:
 
-[![](http://i.imgur.com/X7n3Kdo.png)](http://i.imgur.com/X7n3Kdo.png)
+
+<img src="http://i.imgur.com/X7n3Kdo.png" class="img-responsive" alt="New brand identity on the way">
+
 
 The new web experience is just around the corner too, so keep your eyes and ears wide open!
+
 
 ## Upgraded Sinatra and http\_router
 
