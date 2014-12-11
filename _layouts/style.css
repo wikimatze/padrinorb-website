@@ -72,11 +72,6 @@ ul#toc ul {
   color: black;
 }
 
-.feature td {
-  border-bottom: 1px solid #cfcfcf;
-  padding: 5px 10px;
-}
-
 ul.features {
   font-size: 28px;
   letter-spacing: -3px;
