@@ -16,7 +16,11 @@ When reading about a new framework, I often find that the best way to get famili
 
 There is also a screencast available for this tutorial. You can check it out by:
 
-- [Watching it on Vimeo](http://vimeo.com/10522357) (Low Resolution)
+<div class="flex-video widescreen" style="margin: 0 auto;text-align:center;">
+<iframe src="//player.vimeo.com/video/10522357" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/10522357">Blog Tutorial</a> from <a href="http://vimeo.com/user3479413">Padrino Framework</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</div>
+
+
 - [Downloading the file](http://padrino.s3.amazonaws.com/screencast_1.mov) (211 Mb, 12:00 in [Quicktime](http://www.apple.com/quicktime/download))
  
 
