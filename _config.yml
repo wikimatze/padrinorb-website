@@ -74,7 +74,7 @@ people:
     - title: github
       url: https://github.com/udzura
 - name: namusyaka
-  pic: kondo
+  pic: namusyaka
   position: I’m a ruby programmer born in Japan.
   social:
     - title: twitter
@@ -106,7 +106,7 @@ people:
     - title: github
       url: https://github.com/nesquena
 - name: Arthur Chiu
-  pic: nathan
+  pic: achiu
   position: He enjoys programming, martial arts, and traveling when he has the time
   social:
     - title: twitter
