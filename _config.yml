@@ -71,8 +71,6 @@ people:
   pic: kondo
   position: Is the official maintainer of 日本語 Padrino サイト.
   social:
-    - title: home
-      url: http://blog.udzura.jp/
     - title: twitter
       url: https://twitter.com/udzura
     - title: github
