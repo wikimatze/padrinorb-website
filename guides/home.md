@@ -1,7 +1,8 @@
 ---
 date: 2010-03-01
-update: 2014-11-21
+update: 2014-12-14
 author: Nathan
+update_author: Matthias
 email: nesquena@gmail.com
 title: Home
 permalink: /guides/
@@ -14,22 +15,68 @@ Padrino is a Ruby framework built upon the excellent [Sinatra](http://www.sinatr
 
 Here is a list of major functionality Padrino provides on top of Sinatra:
 
-||
-|**Agnostic:**|Full support for many popular testing, templating, mocking, and database libraries.|
-|**Generators:**|Create Padrino applications, models, controllers i.e: `padrino g project`.|
-|**Mountable:**|Unlike other ruby frameworks, principally designed for mounting multiple apps.|
-|**Routing:**|Full url named routes, named params, respond\_to support, before/after filter support.|
-|**Tag Helpers:**|View helpers such as: `tag`, `content_tag`, `input_tag`.|
-|**Asset Helpers:**|View helpers such as: `link_to`, `image_tag`, `javascript_include_tag`.|
-|**Form Helpers:**|Builder support such as: `form_tag`, `form_for`, `field_set_tag`, `text_field`.|
-|**Text Helpers:**|Useful formatting like: `relative_time_ago`, `js_escape_html`, `sanitize_html`.|
-|**Mailer:**|Fast and simple delivery support for sending emails (akin to ActionMailer).|
-|**Admin:**|Builtin Admin interface (like Django).|
-|**Caching:**|Simple route and fragment caching to easily speed up your web requests.|
-|**Logging:**|Provide a unified logger that can interact with your ORM or any library.|
-|**Reloading:**|Automatically reloads server code during development.|
-|**Localization:**|Full support of I18n||
- 
+
+<table class="table table-striped">
+  <tbody><tr>
+      <td style="text-align:right;"><strong>Agnostic:</strong></td>
+      <td>Full support for many popular testing, templating, mocking, and database libraries.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Generators:</strong></td>
+      <td>Create Padrino applications, models, controllers i.e: <tt>padrino g project</tt>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Mountable:</strong></td>
+      <td>Unlike other ruby frameworks, principally designed for mounting multiple apps.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Routing:</strong> </td>
+      <td>Full url named routes, named params, respond_to support, before/after filter support.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Tag Helpers:</strong></td>
+      <td>View helpers such as: <tt>tag</tt>, <tt>content_tag</tt>, <tt>input_tag</tt>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Asset Helpers:</strong> </td>
+      <td>View helpers such as: <tt>link_to</tt>, <tt>image_tag</tt>, <tt>javascript_include_tag</tt>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Form Helpers:</strong></td>
+      <td>Builder support such as: <tt>form_tag</tt>, <tt>form_for</tt>, <tt>field_set_tag</tt>, <tt>text_field</tt>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Text Helpers:</strong></td>
+      <td>Useful formatting like: <tt>relative_time_ago</tt>, <tt>js_escape_html</tt>, <tt>sanitize_html</tt>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Mailer:</strong></td>
+      <td>Fast and simple delivery support for sending emails (akin to ActionMailer).</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Admin:</strong></td>
+      <td>Builtin Admin interface (like Django).</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Caching:</strong></td>
+      <td>Simple route and fragment caching to easily speed up your web requests.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Logging:</strong></td>
+      <td>Provide a unified logger that can interact with your <span class="caps">ORM</span> or any library.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Reloading:</strong></td>
+      <td>Automatically reloads server code during development.</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;"><strong>Localization:</strong></td>
+      <td>Full support of I18n</td>
+      <td></td>
+    </tr>
+</tbody></table>
+<br>
+
 
 ## Guides
 
