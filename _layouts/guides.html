@@ -10,8 +10,8 @@
                 <div class="col-lg-8">
                   <h2 class="section-heading">{{ page.title}}</h2>
                     <div class="author">
-                      Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time>
-                      {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} by {{ page.author }}
+                      Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time> by {{ page.author }}
+                      {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} {% if page.update_author %} by {{ page.update_author }} {% endif %}
                     </div>
 
                     <p class="text-muted">
