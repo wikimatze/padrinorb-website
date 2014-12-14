@@ -2,7 +2,6 @@
 {% include css/pygments.css %}
 {% include css/agency.css %}
 
-
 .slogan {
   font-size: 24px;
   color: black;
@@ -18,11 +17,36 @@
   font-size: 90%;
 }
 
+.navbar-default {
+  background-color: #222;
+}
+
+.navbar-brand {
+  float: left;
+  font-size: 18px;
+  height: 70px;
+  line-height: 20px;
+  padding: 0;
+}
+
 .current {
   border-radius: 3px;
   background-color: #ff0000;
   font: 20px
 }
+
+.navbar-default .navbar-nav>.current>a {
+  border-radius: 3px;
+  color: #fff;
+  background-color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-nav>.current>a:hover,
+.navbar-default .navbar-nav>.current>a:focus {
+  color: #fff;
+  background-color: #{{ site.color.secondary }};
+}
+
 
 .vertical-offset-top{
   margin-top: 10em;
@@ -47,18 +71,6 @@ ul#toc {
 
 ul#toc ul {
   list-style: disc;
-}
-
-.navbar-default {
-    background-color: #222;
-}
-
-.navbar-brand {
-    float: left;
-    font-size: 18px;
-    height: 70px;
-    line-height: 20px;
-    padding: 0;
 }
 
 .header-text {
