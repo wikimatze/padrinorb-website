@@ -2,6 +2,12 @@
 {% include css/pygments.css %}
 {% include css/agency.css %}
 
+h2 {
+  border-top: 4px solid #CFCFCF;
+  margin-top: 1em;
+  padding-top: 0.5em;
+}
+
 .slogan {
   font-size: 24px;
   color: black;
