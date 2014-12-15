@@ -8,6 +8,12 @@ h2 {
   padding-top: 0.5em;
 }
 
+.section-heading {
+  border: none;
+  margin-top: none;
+  padding-top: none;
+}
+
 .slogan {
   font-size: 24px;
   color: black;
