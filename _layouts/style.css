@@ -14,6 +14,10 @@ h2 {
   padding-top: none;
 }
 
+section h3.section-subheading {
+  margin-bottom: 2em;
+}
+
 .slogan {
   font-size: 24px;
   color: black;
