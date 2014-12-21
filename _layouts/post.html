@@ -27,13 +27,13 @@
 
                   <p class="text-muted">{{ content }}</p>
 
-                  <div class="hierarchy pull-right">Hierarchy:
+                  <div class="hierarchy">
                     {% if page.previous %}
-                    <a class="label label-default" href="{{ page.previous.url }}" title="Previous post">previous post</a>
+                    <a class="label label-default pull-left hierarchy" href="{{ page.previous.url }}" title="Previous post">← previous post</a>
                     {% endif %}
 
                     {% if page.next %}
-                    {% if page.previous %}, {% endif %}<a class="label label-default" href="{{ page.next.url }}" title="Next post">next post</a>
+                    <a class="label label-default pull-right hierarchy" href="{{ page.next.url }}" title="Next post">next post →</a>
                     {% endif %}
                   </div>
                 </div>

@@ -29,8 +29,18 @@ section h3.section-subheading {
   margin: 0 0 1em 0;
 }
 
-.hierarchy, .tags {
+.tags {
   font-size: 90%;
+}
+
+.hierarchy {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  color: white;
 }
 
 .navbar-default {
