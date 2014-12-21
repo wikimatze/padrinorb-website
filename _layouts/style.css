@@ -39,8 +39,8 @@ section h3.section-subheading {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
-  text-transform: uppercase;
   color: white;
+  margin-top: 2em;
 }
 
 .navbar-default {

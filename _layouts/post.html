@@ -29,11 +29,11 @@
 
                   <div class="hierarchy">
                     {% if page.previous %}
-                    <a class="label label-default pull-left hierarchy" href="{{ page.previous.url }}" title="Previous post">← previous post</a>
+                    <a class="label label-default pull-left hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.previous.url }}" title="Previous post - {{ page.previous.title }}">← PREVIOUS POST</a>
                     {% endif %}
 
                     {% if page.next %}
-                    <a class="label label-default pull-right hierarchy" href="{{ page.next.url }}" title="Next post">next post →</a>
+                      <a class="label label-default pull-right hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.next.url }}" title="Next post - {{ page.next.title }} ">NEXT POST →</a>
                     {% endif %}
                   </div>
                 </div>
