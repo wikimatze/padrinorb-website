@@ -1,0 +1,71 @@
+______         _      _
+| ___ \       | |    (_)
+| |_/ /_ _  __| |_ __ _ _ __   ___
+|  __/ _` |/ _` | '__| | '_ \ / _ \
+| | | (_| | (_| | |  | | | | | (_) |
+\_|  \__,_|\__,_|_|  |_|_| |_|\___/
+
+/* TEAM */
+  DAddYE
+  Site: http://www.daddye.it/
+  Twitter: @DAddYE
+  From: San Francisco
+
+  Uchio Kondo
+  Twitter: @udzura
+  From: Fukuoka, Japan
+
+  namusyaka
+  Site: http://namusyaka.info/
+  Twitter: @namusyaka
+  From: Japan
+
+  Darío Javier Cravero
+  Site: http://www.uxtemple.com/
+  Twitter: @dariocravero
+  From: Galway, Ireland
+
+  Igor Bochkariov
+  Site:http://ujifgc.tumblr.com/
+  Twitter: @ujifgc
+  From: Izhevs, kRussia
+
+  Nathan Esquenazi
+  Site: http://codepath.com/
+  Twitter: @nesquena
+  From: San Francisco, California
+
+  Arthur Chiu
+  Site: http://www.arthurchiu.com/#/
+  Twitter: @arthur_chiu
+  From: Irvine, California
+
+  Florian Gilcher
+  Site: http://asquera.de/
+  Twitter: @skade
+  From: Berlin, Germany
+
+  Joshua Hull
+  Twitter: @joshbuddy
+  From: San Francisco, California
+
+
+/* THANKS */
+  Design: Matthias Günther
+  Site: wikimatze.de
+  Twitter: @wikimatze
+  Location: Berlin, Germany
+
+  Logo: Daniel Polo
+  Site: https://dribbble.com/danielpolo
+
+  Luis Merino
+  Site: http://www.proudsugar.com/
+  Twitter: @Rendez
+
+
+/* SITE */
+	Last update: 2014/12/21
+	Language: English
+	Doctype: HTML5
+  Tool: Jekyll
