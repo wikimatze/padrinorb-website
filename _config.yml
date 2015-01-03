@@ -11,6 +11,10 @@ permalink: /:title
 destination: _site
 
 
+paginate: 5
+paginate_path: "blog/page:num/"
+
+
 base_url: "http://www.padrinorb.com/"
 
 # Site settings

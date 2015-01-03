@@ -8,10 +8,17 @@ h2 {
   padding-top: 0.5em;
 }
 
-.section-heading {
+.section-heading, h2.post-title {
   border: none;
   margin-top: none;
   padding-top: none;
+}
+
+.post-meta {
+  color: #808080;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 0;
 }
 
 section h3.section-subheading {
