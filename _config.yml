@@ -45,6 +45,12 @@ defaults:
       type: "pages"
     values:
       layout: "guides"
+  -
+    scope:
+      path: "team"
+      type: "pages"
+    values:
+      layout: "team"
 
 
 gems:
