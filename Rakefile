@@ -17,31 +17,48 @@ task :t do
   html =<<-HTML
 ---
 title: Tags
-layout: tag
+layout: page
 ---
+
+{% include header_navigation.html %}
+
+<div class="container vertical-offset-top">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8">
 
   HTML
 
   site.categories.sort.each do |category, posts|
   html << <<-HTML
-  <h4 id="#{category}">#{category}</h4>
+
+      <h4 id="#{category}">#{category}</h4>
   HTML
 
-  html << '<ul class="posts">'
-  posts.each do |post|
-  post_data = post.to_liquid
-  html << <<-HTML
-  <li>
-  <div>#{date_to_string post.date}</div>
-  <a href="#{post.url}">#{post_data['title']}</a>
-  </li>
-  HTML
-  end
-  html << '</ul>'
+    html << '    <ul class="posts">'
+    posts.each do |post|
+      post_data = post.to_liquid
+      html << <<-HTML
+
+      <li>
+        <div>#{date_to_string post.date}</div>
+        <a href="#{post.url}">#{post_data['title']}</a>
+      </li>
+      HTML
+    end
+  html << '    </ul>'
   end
 
   File.open('tags.html', 'w+') do |file|
-  file.puts html
+    file.puts html
+    3.times do
+      file.puts "</div>"
+    end
   end
 
   puts 'Done.'

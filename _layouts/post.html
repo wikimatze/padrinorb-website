@@ -1,47 +1,48 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
-    <body id="page-top" class="index">
+<html lang="en">
+{% include head.html %}
+<body id="page-top" class="index">
+  {% capture current %}Blog{% endcapture %}
 
-    {% include header_posts.html %}
+  {% include header_navigation.html %}
 
-        <div class="container">
-            <div class="row vertical-offset-top">
-                <div class="col-lg-12">
-                  <h1>{{ page.title}}</h1>
-                    <div class="author">
-                      Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time>
-                      {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} by {{ page.author }}
+  <div class="container">
+    <div class="row vertical-offset-top">
+      <div class="col-lg-12">
+        <h1>{{ page.title}}</h1>
+        <div class="author">
+          Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time>
+          {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} by {{ page.author }}
 
-                      <div class="tags pull-right">
-                        {% if page.categories == empty  %}
-                        No tags
-                        {% else %}
-                        Tags:
-                        {% for tag in page.categories %}
-                        <a class="label label-default" href="/tags.html#{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
-                        {% endfor %}
-                        {% endif %}
-                      </div>
-                    </div>
-
-                  <p class="text-muted">{{ content }}</p>
-
-                  <div class="hierarchy">
-                    {% if page.previous %}
-                    <a class="label label-default pull-left hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.previous.url }}" title="Previous post - {{ page.previous.title }}">← PREVIOUS POST</a>
-                    {% endif %}
-
-                    {% if page.next %}
-                      <a class="label label-default pull-right hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.next.url }}" title="Next post - {{ page.next.title }} ">NEXT POST →</a>
-                    {% endif %}
-                  </div>
-                </div>
-            </div>
+          <div class="tags pull-right">
+            {% if page.categories == empty  %}
+              No tags
+            {% else %}
+              Tags:
+              {% for tag in page.categories %}
+                <a class="label label-default" href="/tags.html#{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %}
+              {% endfor %}
+            {% endif %}
+          </div>
         </div>
 
-    {% include footer.html %}
+        <p class="text-muted">{{ content }}</p>
 
-    </body>
+        <div class="hierarchy">
+          {% if page.previous %}
+            <a class="label label-default pull-left hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.previous.url }}" title="Previous post - {{ page.previous.title }}">← PREVIOUS POST</a>
+          {% endif %}
+
+          {% if page.next %}
+            <a class="label label-default pull-right hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.next.url }}" title="Next post - {{ page.next.title }} ">NEXT POST →</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+  </body>
 </html>
 

@@ -1,58 +1,58 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
-    <body id="page-top" class="index">
+<html lang="en">
+{% include head.html %}
+<body id="page-top" class="index">
+  {% capture current %}Guides{% endcapture %}
 
-    {% include header_guides.html %}
-
-        <div class="container vertical-offset-top">
-            <div class="row">
-                <div class="col-lg-8">
-                  <h1>{{ page.title}}</h1>
-                    <div class="author">
-                      Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time> by {{ page.author }}
-                      {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} {% if page.update_author %} by {{ page.update_author }} {% endif %}
-                    </div>
-
-                    <p class="text-muted">
-                      {{ content }}</p>
-                </div>
-                <div class="col-lg-4">
-                  <span class="heading-sidebar">Guides Index</span>
-                  <p class="text-muted">
-                    <ul class="guides">
-                      <li><a href="/guides/">Home</a></li>
-                      <li><a href="/guides/getting-started">Getting Started</a></li>
-                      <li><a href="/guides/installation">Installation</a></li>
-                      <li><a href="/guides/basic-projects">Basic Projects</a></li>
-                      <li><a href="/guides/generators">Generators</a></li>
-                      <li><a href="/guides/development-commands">Development Commands</a></li>
-                      <li><a href="/guides/mounting-applications">Mounting Applications</a></li>
-                      <li><a href="/guides/blog-tutorial">Blog Tutorial</a></li>
-                      <li><a href="/guides/application-helpers">Application Helpers</a></li>
-                      <li><a href="/guides/padrino-admin">Padrino Admin</a></li>
-                      <li><a href="/guides/padrino-mailer">Padrino Mailer</a></li>
-                      <li><a href="/guides/padrino-cache">Padrino Cache</a></li>
-                      <li><a href="/guides/controllers">Controllers</a></li>
-                      <li><a href="/guides/localization">Localization</a></li>
-                      <li><a href="/guides/extensions">Extensions</a></li>
-                      <li><a href="/guides/rake-tasks">Rake Tasks</a></li>
-                      <li><a href="/guides/the-bleeding-edge">The Bleeding Edge</a></li>
-                      <li><a href="/guides/adding-new-components">Adding New Components</a></li>
-                      <li><a href="/guides/standalone-usage-in-sinatra">Standalone Usage in Sinatra</a></li>
-                      <li><a href="/guides/running-padrino-on-jruby">Running Padrino on JRuby</a></li>
-                    </ul>
-                  </p>
-                  <div class="vertical-offset-toc">
-                  <span class="heading-sidebar">Chapters</span>
-                    <ul id="toc"></ul>
-                </div>
-            </div>
+  {% include header_navigation.html %}
+  <div class="container vertical-offset-top">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1>{{ page.title}}</h1>
+        <div class="author">
+          Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time> by {{ page.author }}
+          {% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} {% if page.update_author %} by {{ page.update_author }} {% endif %}
         </div>
+
+        <p class="text-muted">
+          {{ content }}</p>
+      </div>
+      <div class="col-lg-4">
+        <span class="heading-sidebar">Guides Index</span>
+        <p class="text-muted">
+          <ul class="guides">
+            <li><a href="/guides/">Home</a></li>
+            <li><a href="/guides/getting-started">Getting Started</a></li>
+            <li><a href="/guides/installation">Installation</a></li>
+            <li><a href="/guides/basic-projects">Basic Projects</a></li>
+            <li><a href="/guides/generators">Generators</a></li>
+            <li><a href="/guides/development-commands">Development Commands</a></li>
+            <li><a href="/guides/mounting-applications">Mounting Applications</a></li>
+            <li><a href="/guides/blog-tutorial">Blog Tutorial</a></li>
+            <li><a href="/guides/application-helpers">Application Helpers</a></li>
+            <li><a href="/guides/padrino-admin">Padrino Admin</a></li>
+            <li><a href="/guides/padrino-mailer">Padrino Mailer</a></li>
+            <li><a href="/guides/padrino-cache">Padrino Cache</a></li>
+            <li><a href="/guides/controllers">Controllers</a></li>
+            <li><a href="/guides/localization">Localization</a></li>
+            <li><a href="/guides/extensions">Extensions</a></li>
+            <li><a href="/guides/rake-tasks">Rake Tasks</a></li>
+            <li><a href="/guides/the-bleeding-edge">The Bleeding Edge</a></li>
+            <li><a href="/guides/adding-new-components">Adding New Components</a></li>
+            <li><a href="/guides/standalone-usage-in-sinatra">Standalone Usage in Sinatra</a></li>
+            <li><a href="/guides/running-padrino-on-jruby">Running Padrino on JRuby</a></li>
+          </ul>
+        </p>
+        <div class="vertical-offset-toc">
+          <span class="heading-sidebar">Chapters</span>
+          <ul id="toc"></ul>
+        </div>
+      </div>
     </div>
+  </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-    </body>
+  </body>
 </html>
 

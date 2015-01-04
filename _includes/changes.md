@@ -1,9 +1,3 @@
----
-title: Changes
-layout: changes
-permalink: changes/
----
-
 ### 0.13.0.rc1 (not released)
 
 - DELETE remove deprecations (String#undent, #link_to with :fragment, old caching,
@@ -1152,3 +1146,8 @@ Refactoring and cleanup:
 - Added a new helper +error_message_on+
 - Added a new helper +button_to+
 
+
+
+# Test
+
+aa

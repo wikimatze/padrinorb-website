@@ -1,0 +1,47 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="/"><img src="/img/logo_navigation.png" alt="{{ site.title }}"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" target="_blank" href="https://github.com/padrino/padrino-framework">Code</a>
+        </li>
+        <li {% if current == 'Blog' %} class="current" {% endif %}>
+          <a class="page-scroll" href="/blog">Blog</a>
+        </li>
+        <li {% if current == 'Guides' %} class="current" {% endif %}>
+          <a class="page-scroll" href="/guides/">Guides</a>
+        </li>
+        <li>
+          <a class="page-scroll" target="_blank" href="http://www.padrinorb.com/api/index.html">API</a> </li>
+        <li>
+          <li>
+            <a class="page-scroll" href="/#features">Features</a>
+          </li>
+          <li {% if current == 'Changes' %} class="current" {% endif %}>
+            <a class="page-scroll" href="/changes">Changes</a>
+          </li>
+          <li {% if current == 'Team' %} class="current" {% endif %}>
+            <a class="page-scroll" href="/team">Team</a>
+          </li>
+          <li {% if current == 'Contribute' %} class="current" {% endif %}>
+            <a class="page-scroll" href="/contribute">Contribute</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+

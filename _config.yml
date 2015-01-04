@@ -55,6 +55,12 @@ defaults:
       type: "pages"
     values:
       layout: "team"
+  -
+    scope:
+      path: "blog"
+      type: "pages"
+    values:
+      layout: "blog"
 
 
 gems:
