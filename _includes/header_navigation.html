@@ -28,8 +28,8 @@
         <li>
           <a class="page-scroll" target="_blank" href="http://www.padrinorb.com/api/index.html">API</a> </li>
         <li>
-        <li>
-          <a class="page-scroll" href="/#features">Features</a>
+        <li {% if current == 'Features' %} class="current" {% endif %}>
+          <a class="page-scroll" href="/features">Features</a>
         </li>
         <li {% if current == 'Changes' %} class="current" {% endif %}>
           <a class="page-scroll" href="/changes">Changes</a>
