@@ -1,0 +1,140 @@
+---
+layout: page
+title: Features
+permalink: /features/
+---
+{% capture current %}Features{% endcapture %}
+
+{% include header_navigation.html %}
+
+<section id="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Features</h2>
+        <h3 class="section-subheading text-muted">Padrino is a ruby framework built upon the Sinatra web library. Sinatra is a DSL for creating simple web applications in Ruby. Padrino was created to make it fun and easy to code more advanced web applications while still adhering to the spirit that makes Sinatra great!</h3>
+      </div>
+      <img src="/img/mic.png" alt="Mic" class="img-responsive pull-left">
+      <p>Many people love the simplicity and expressiveness of Sinatra but quickly come to miss a great deal of functionality provided by other web frameworks such as Rails when building non-trivial applications.</p>
+      <p>Our goal with Padrino is to stay true to the core principles of Sinatra while at the same time creating a standard library of tools, helpers and functions that will make Sinatra suitable for increasingly complex applications.</p>
+      <p>Here is a list of the major functionality Padrino provides on top of Sinatra:</p>
+      <br><br>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Agnostic</h4>
+        <p class="text-muted">Full support for many popular testing, templating, mocking, and database libraries.<a href="/guides">Learn more</a> </p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Generators</h4>
+        <p class="text-muted">Create Padrino applications, models, controllers i.e: padrino g project. <a href="/guides/generators/">Learn more</a></p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-toggle-on fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Mountable</h4>
+        <p class="text-muted">Unlike other ruby frameworks, principally designed for mounting multiple apps. <a href="/guides/mounting-applications/">Learn more</a> </p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Routing</h4>
+        <p class="text-muted">Named params, respond_to support, before/after filter support.<a href="/guides/controllers/#enhanced-routing">Learn more</a></p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Tag Helpers</h4>
+        <p class="text-muted">View helpers such as: tag, content_tag, input_tag. <a href="/guides/application-helpers/#tag-helpers">Learn more</a></p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Asset Helpers</h4>
+        <p class="text-muted">View helpers such as: link_to, image_tag.<br><a href="/guides/application-helpers/#asset-helpers">Learn more</a></p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Form Helpers</h4>
+        <p class="text-muted">Builder support such as: form_tag, form_for, field_set_tag. <a href="/guides/application-helpers/#form-helpers">Learn more</a></p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Format Helpers</h4>
+        <p class="text-muted">Useful formatting like: relative_time_ago, js_escape_html.<a href="/guides/application-helpers/#format-helpers">Learn more</a></p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-send fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Mailer</h4>
+        <p class="text-muted">Fast and simple delivery support for sending emails (akin to ActionMailer).<a href="/guides/padrino-mailer">Learn more</a> </p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-eraser fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Caching</h4>
+        <p class="text-muted">Simple route and fragment caching to easily speed up your web requests. <a href="/guides/padrino-cache/">Learn more</a></p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Admin</h4>
+        <p class="text-muted">Built-in admin interface (akin to Django) with authentication. <a href="/guides/padrino-admin/">Learn more</a></p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-space-shuttle fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Logging</h4>
+        <p class="text-muted">Provide a unified logger that can interact with your ORM or any library.</p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-anchor fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Reloading</h4>
+        <p class="text-muted">Automatically reloads server code during development.</p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-comments-o fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading">Localization</h4>
+        <p class="text-muted">Full support for I18n localization.<br> <a href="/guides/localization">Learn more</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
