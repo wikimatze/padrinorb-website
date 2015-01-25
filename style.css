@@ -34,6 +34,23 @@ section h3.section-subheading {
   color: black;
 }
 
+h1.slogan {
+  border: none;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top: none;
+  padding: none;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 200;
+  text-transform: none;
+}
+
+span.slogan-padrino {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: none;
+  font-size: 70px;
+}
+
 .author, .hierarchy, .tags {
   font-size: 85%;
   color: #bdbbbb;
@@ -84,7 +101,6 @@ section h3.section-subheading {
   background-color: #{{ site.color.secondary }};
 }
 
-
 .vertical-offset-top{
   margin-top: 10em;
 }
@@ -127,7 +143,7 @@ ul.features {
   line-height: 24px;
   list-style-type: none;
   margin-top: 1.5em;
-  text-align: right;
+  text-align: left;
 }
 ul.features a {
   color: #393939;
@@ -142,5 +158,37 @@ ul.features a:hover {
 ul.features li {
   margin: 0;
   padding: 0;
+}
+
+
+/* Inspiration from  http://charliepark.org/bootstrap_buttons/ */
+.btn-download { background-color: hsl(360, 100%, 32%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4747", endColorstr="#a30000"); background-image: -khtml-gradient(linear, left top, left bottom, from(#ff4747), to(#a30000)); background-image: -moz-linear-gradient(top, #ff4747, #a30000); background-image: -ms-linear-gradient(top, #ff4747, #a30000); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff4747), color-stop(100%, #a30000)); background-image: -webkit-linear-gradient(top, #ff4747, #a30000); background-image: -o-linear-gradient(top, #ff4747, #a30000); background-image: linear-gradient(#ff4747, #a30000); border-color: #a30000 #a30000 hsl(360, 100%, 24%); color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.52); -webkit-font-smoothing: antialiased; font-size: 17.5px; padding: 11px 19px; border-radius: 6px}
+
+.btn-download a {
+  color: white;
+}
+
+.latest-stable {
+  font-size: 16px;
+  color: red;
+}
+
+.padrino-version {
+  font-size: 16px;
+  font-style: bold;
+  font-weight: 600;
+}
+
+.download-information {
+  margin-left: 30px;
+}
+
+.getting-started {
+  border: none;
+  text-transform: none;
+}
+
+.jumbotron p {
+  font-weight: unset;
 }
 
