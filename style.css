@@ -150,9 +150,15 @@ ul#toc ul {
   font-size: 16px;
   color: red;
   margin-left: 11px;
+  margin-top: 11px;
+}
+
+.latest-release{
+  margin-top: 10px;
 }
 
 .padrino-version {
+  color: black;
   font-size: 16px;
   font-style: bold;
   font-weight: 600;
