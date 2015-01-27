@@ -140,7 +140,7 @@ ul#toc ul {
 /* Styles for index page */
 
 /* Inspiration from  http://charliepark.org/bootstrap_buttons/ */
-.btn-download { background-color: hsl(360, 100%, 32%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4747", endColorstr="#a30000"); background-image: -khtml-gradient(linear, left top, left bottom, from(#ff4747), to(#a30000)); background-image: -moz-linear-gradient(top, #ff4747, #a30000); background-image: -ms-linear-gradient(top, #ff4747, #a30000); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff4747), color-stop(100%, #a30000)); background-image: -webkit-linear-gradient(top, #ff4747, #a30000); background-image: -o-linear-gradient(top, #ff4747, #a30000); background-image: linear-gradient(#ff4747, #a30000); border-color: #a30000 #a30000 hsl(360, 100%, 24%); color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.52); -webkit-font-smoothing: antialiased; font-size: 17.5px; padding: 11px 19px; border-radius: 6px}
+.btn-download { background-color: hsl(360, 100%, 32%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4747", endColorstr="#a30000"); background-image: -khtml-gradient(linear, left top, left bottom, from(#ff4747), to(#a30000)); background-image: -moz-linear-gradient(top, #ff4747, #a30000); background-image: -ms-linear-gradient(top, #ff4747, #a30000); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff4747), color-stop(100%, #a30000)); background-image: -webkit-linear-gradient(top, #ff4747, #a30000); background-image: -o-linear-gradient(top, #ff4747, #a30000); background-image: linear-gradient(#ff4747, #a30000); border-color: #a30000 #a30000 hsl(360, 100%, 24%); color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.52); -webkit-font-smoothing: antialiased; font-size: 17.5px; padding: 11px 19px; border-radius: 6px; margin-top: 15px; margin-left: 11px}
 
 .btn-download a {
   color: white;
@@ -149,16 +149,13 @@ ul#toc ul {
 .latest-stable {
   font-size: 16px;
   color: red;
+  margin-left: 11px;
 }
 
 .padrino-version {
   font-size: 16px;
   font-style: bold;
   font-weight: 600;
-}
-
-.download-information {
-  margin-left: 30px;
 }
 
 .getting-started {
