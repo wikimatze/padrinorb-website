@@ -28,38 +28,20 @@ layout: page
           applications while still adhering to the spirit that makes Sinatra great!</p>
       </div>
     </div>
-  </div>
-  <hr>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-9 col-md-offset-3">
-        <h2 class="getting-started">Getting Started</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-9 col-md-offset-3">
-        <p class="large">Many people love the simplicity and expressiveness of Sinatra but quickly find themselves missing a great deal of functionality provided by other web frameworks such as Rails when building non-trivial applications.</p>
-        <p class="large">Our goal with Padrino is to stay true to the core principles of Sinatra while at the same time creatinging a standard library of tools, helpers and functions that will make Sinatra suitable for increasingly complex applications.</p>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-5 col-md-offset-3 ">
-        <div class="highlight header-text"><pre><code data-lang="sh" class="language-sh">gem install padrino
-padrino g project myapp -d datamapper -b
-<span class="nb">cd </span>myapp
-padrino g admin
-padrino rake dm:migrate seed
-padrino start
-</code></pre></div>
-    </div>
-    <div class="col-md-4">
-      <div class="intro-text">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <a class="btn btn-download" href="/guides/getting-started"><i class="fa fa-angle-double-right"></i> Learn more</a>
+        <div class="highlight header-text"><pre><code data-lang="sh" class="language-sh"><span class="nv">$ </span>gem install padrino
+<span class="nv">$ </span>padrino g project myapp
+<span class="nv">$ </span><span class="nb">cd </span>myapp <span class="nv">&& </span>padrino s
+</code></pre>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="intro-text">
+          <br>
+          <br>
+          <a class="btn btn-download" href="/guides/getting-started"><i class="fa fa-angle-double-right"></i> Learn more</a>
+        </div>
       </div>
     </div>
   </div>
