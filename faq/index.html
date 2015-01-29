@@ -18,9 +18,9 @@ permalink: /faq/
 
     <div class="row">
       <div class="col-lg-12">
-        <a class="btn btn-info" data-toggle="collapse" href="#restfulAsSymbolShortcuts" aria-expanded="false" aria-controls="restfulAsSymbolShortcuts">
-          Does the Padrino Controller support any other resful routes as symbol shortcuts, apart from index?
-        </a>
+        <h2 class="faq" data-toggle="collapse" href="#restfulAsSymbolShortcuts" aria-expanded="false" aria-controls="restfulAsSymbolShortcuts">
+          <a href="#">Does the Padrino Controller support any other resful routes as symbol shortcuts, apart from index?</a>
+        </h2>
         <div class="collapse" id="restfulAsSymbolShortcuts">
           <div class="well">
             <p>No. Only <code>:index</code> is a special case. All other routes are defined by the symbol name as shown in the second example below.</p>
@@ -43,19 +43,16 @@ permalink: /faq/
   <span class="k">end</span>
 <span class="k">end</span>
 </code></pre></div>
-
           </div>
         </div>
       </div>
     </div>
 
-    <br>
-
     <div class="row">
       <div class="col-lg-12">
-        <a class="btn btn-info" data-toggle="collapse" href="#mailObjectNotAvailableForTesting" aria-expanded="false" aria-controls="mailObjectNotAvailableForTesting">
-          Why is the Mail Object not available at the beginning of testing?
-        </a>
+        <h2 class="faq" data-toggle="collapse" href="#mailObjectNotAvailableForTesting" aria-expanded="false" aria-controls="mailObjectNotAvailableForTesting">
+          <a href="#">Why is the Mail Object not available at the beginning of testing?</a>
+        </h2>
         <div class="collapse" id="mailObjectNotAvailableForTesting">
           <div class="well">
             <p>Padrino Mailers work with the <a href="https://github.com/mikel/mail">Mail Gem</a>. This gem is so slow at loading it is patched to lazy load<a href="https://github.com/padrino/padrino-framework/blob/ca2825f0a6fd90e61f07d7a0112c79414b46b7e4/padrino-mailer/lib/padrino-mailer.rb#L44-L47">*</a>. To solve this issue the mail gem can be required at the beginning of tests <code>require 'mail'</code></p>
@@ -80,19 +77,16 @@ permalink: /faq/
   <span class="k">end</span>
 <span class="k">end</span>
 </code></pre></div>
-
           </div>
         </div>
       </div>
     </div>
 
-    <br>
-
     <div class="row">
       <div class="col-lg-12">
-        <a class="btn btn-info" data-toggle="collapse" href="#testPostRoutesGetting403Response" aria-expanded="false" aria-controls="testPostRoutesGetting403Response">
-          How to test post routes, I keep getting a 403 forbidden response
-        </a>
+        <h2 class="faq" data-toggle="collapse" href="#testPostRoutesGetting403Response" aria-expanded="false" aria-controls="testPostRoutesGetting403Response">
+          <a href="#">How to test post routes, I keep getting a 403 forbidden response</a>
+        </h2>
         <div class="collapse" id="testPostRoutesGetting403Response">
           <div class="well">
             <p>A generated Padrino project includes csrf protect on all post requests. This should not be disabled at the app level, unless you know what you are doing. Csrf can be disable in an individual test suite by overwritting the <code>protect_from_csrf</code> setting</p>
@@ -113,7 +107,6 @@ permalink: /faq/
   <span class="k">end</span>
 <span class="k">end</span>
 </code></pre></div>
-
           </div>
         </div>
       </div>

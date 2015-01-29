@@ -177,3 +177,13 @@ ul#toc ul {
   font-weight: unset;
 }
 
+h2.faq {
+  border-top: none;
+  margin-top: 1em;
+  text-transform: none;
+}
+
+h2.faq a {
+  text-decoration: none;
+
+}
