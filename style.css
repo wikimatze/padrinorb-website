@@ -173,8 +173,16 @@ ul#toc ul {
   text-transform: none;
 }
 
+.jumbotron {
+  margin-top: 40px;
+}
+
 .jumbotron p {
   font-weight: unset;
+}
+
+table {
+  margin-top: 30px;
 }
 
 h2.faq {
