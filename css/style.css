@@ -7,6 +7,7 @@ layout:
 {% include css/agency.css %}
 {% include css/font-awesome.min.css %}
 
+
 h2 {
   border-top: 4px solid #CFCFCF;
   margin-top: 1em;
@@ -17,6 +18,10 @@ h2 {
   border: none;
   margin-top: none;
   padding-top: none;
+}
+
+p {
+  font-size: 15px;
 }
 
 .post-meta {
@@ -194,5 +199,5 @@ h2.faq {
 
 h2.faq a {
   text-decoration: none;
-
 }
+
