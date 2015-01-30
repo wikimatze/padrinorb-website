@@ -1,5 +1,6 @@
 require 'rake'
 require 'colorator'
+require 'cssminify'
 
 
 # Credit for this goes to https://gist.github.com/alexyoung/143571
@@ -68,6 +69,16 @@ desc 'Deploy'
 task :d => :t do
   puts 'Building jekyll ..'.green
   system 'jekyll build'
+
+  puts 'Minify css and merge it into one file ..'.yellow
+
+  File.open('_site/css/application.css', 'w') do |file|
+    file.write(CSSminify.compress(File.open('_site/css/style.css')))
+  end
+
+  system "rm _site/css/style.css && mv _site/css/application.css _site/css/style.css"
+
+  puts "Done with css minifying"
 
   puts 'Deploying site with lovely rsync ..'.green
   system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/padrinorb/"
