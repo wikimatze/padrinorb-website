@@ -7,7 +7,7 @@
   {% include header_navigation.html %}
   <div class="container vertical-offset-top">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-md-8">
         <h1>{{ page.title}}</h1>
         <div class="author">
           Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time> by {{ page.author }}
@@ -17,7 +17,7 @@
         <p class="text-muted">
           {{ content }}</p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <span class="heading-sidebar">Guides Index</span>
         <p class="text-muted">
           <ul class="guides">
