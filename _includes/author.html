@@ -1,0 +1,3 @@
+<p class="post-meta">
+Posted on <time datetime="{{page.date | date:"%Y-%m-%d"}}" pubdate><a href="{{ page.url }}" title="Permalink for this post">{{page.date | date:"%Y-%m-%d"}}</a></time> by {{ page.author }}
+{% if page.update %}, updated <time>{{ page.update }}</time> {% endif %} {% if page.update_author %} by {{ page.update_author }} {% endif %}</p>
