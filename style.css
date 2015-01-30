@@ -5,6 +5,7 @@ layout:
 {% include css/bootstrap.min.css %}
 {% include css/pygments.css %}
 {% include css/agency.css %}
+{% include css/font-awesome.min.css %}
 
 h2 {
   border-top: 4px solid #CFCFCF;
