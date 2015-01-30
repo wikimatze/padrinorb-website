@@ -7,7 +7,6 @@ layout:
 {% include css/agency.css %}
 {% include css/font-awesome.min.css %}
 
-
 h2 {
   border-top: 4px solid #CFCFCF;
   margin-top: 1em;
@@ -201,3 +200,6 @@ h2.faq a {
   text-decoration: none;
 }
 
+ul, ol {
+  font-size: 15px;
+}
