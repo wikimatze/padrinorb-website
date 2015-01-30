@@ -23,6 +23,10 @@ p {
   font-size: 15px;
 }
 
+footer {
+  text-align: left;
+}
+
 .post-meta {
   color: #808080;
   font-size: 15px;
@@ -203,3 +207,4 @@ h2.faq a {
 ul, ol {
   font-size: 15px;
 }
+
