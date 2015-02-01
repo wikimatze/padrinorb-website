@@ -4,9 +4,10 @@ update: 2014-12-14
 author: Nathan
 update_author: Matthias
 email: nesquena@gmail.com
-title: Home
-permalink: /guides/
+title: Guides
+text: To get started with Padrino, go through these guides.
 ---
+
 
 Padrino is a Ruby framework built upon the excellent [Sinatra](http://www.sinatrarb.com/) web library. Sinatra is a DSL for creating simple web applications in Ruby with minimal effort. This framework makes it as fun and easy as possible to code increasingly advanced web applications by enhancing Sinatra while staying true to the spirit that makes it great.
  

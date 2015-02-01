@@ -5,14 +5,32 @@
   {% capture current %}Guides{% endcapture %}
 
   {% include header_navigation.html %}
+
+  {% if page.text %}
+  <section id="contribute">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="section-heading">{{ page.title}}</h1>
+          <p>{{ page.text }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  {% endif %}
+
+  {% if page.text == blank%}
   <div class="container vertical-offset-top">
+  {% else %}
+  <div class="container">
+  {% endif %}
     <div class="row">
       <div class="col-md-8">
-        <h1>{{ page.title}}</h1>
-        <div class="author">
-          {% include author.html %}
-        </div>
-
+        {% if page.text == blank %}
+          <h1>{{ page.title}}</h1>
+        {% endif %}
         <p class="text-muted">
           {{ content }}</p>
       </div>
@@ -45,6 +63,15 @@
         <div class="vertical-offset-toc">
           <span class="heading-sidebar">Chapters</span>
           <ul id="toc"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <hr>
+      <div class="col-md-8">
+        <div class="author">
+          {% include author.html %}
         </div>
       </div>
     </div>
