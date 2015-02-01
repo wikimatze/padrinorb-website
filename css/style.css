@@ -60,14 +60,9 @@ span.slogan-padrino {
   font-size: 70px;
 }
 
-.author, .hierarchy, .tags {
-  font-size: 85%;
+.tags {
   color: #bdbbbb;
   margin: 0 0 1em 0;
-}
-
-.tags {
-  font-size: 90%;
 }
 
 .hierarchy {
