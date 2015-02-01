@@ -13,16 +13,22 @@
         {% include author.html %}
 
         <p class="text-muted">{{ content }}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 hierarchy">
+        {% if page.previous %}
+          <a class="label label-default pull-left hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.previous.url }}" title="Previous post - {{ page.previous.title }}">← PREVIOUS POST</a>
+        {% endif %}
 
-        <div class="hierarchy">
-          {% if page.previous %}
-            <a class="label label-default pull-left hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.previous.url }}" title="Previous post - {{ page.previous.title }}">← PREVIOUS POST</a>
-          {% endif %}
-
-          {% if page.next %}
-            <a class="label label-default pull-right hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.next.url }}" title="Next post - {{ page.next.title }} ">NEXT POST →</a>
-          {% endif %}
-        </div>
+        {% if page.next %}
+          <a class="label label-default pull-right hierarchy" data-toggle="tooltip" data-placement="top" href="{{ page.next.url }}" title="Next post - {{ page.next.title }} ">NEXT POST →</a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        {% include comments.html %}
       </div>
     </div>
   </div>
