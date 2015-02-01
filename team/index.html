@@ -1,37 +1,46 @@
 ---
 layout: page
-title: Home
-permalink: /team/
+title: Team
+text: Padrino exists today because of the efforts of these core members as well as the effort of the amazing Padrino community.
 ---
 {% capture current %}Team{% endcapture %}
 
 {% include header_navigation.html %}
 
-<section id="team" class="bg-light-gray">
+<section id="contribute">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">The Team</h2>
-        <h3 class="section-subheading text-muted">Padrino exists today because of the efforts of these core members as well as the effort of the amazing Padrino community.</h3>
-        <h3 class="section-subheading text-muted">Each team member has committed great time and effort towards the creation, documentation and development of this framework. The team consists of programmers from all over the world including the United States, Italy and Germany.</h3>
+        <h1 class="section-heading">{{ page.title}}</h1>
+        <p>{{ page.text }}</p>
+      </div>
+    </div>
+  </div>
+</section>
 
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <p> Each team member has committed great time and effort towards the creation, documentation and development of this framework. The team consists of programmers from all over the world including the United States, Italy and Germany.
       </div>
-    </div>
-    <div class="row">
-      {% for member in site.people %}
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img src="/img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" width="255" height="255" alt="{{ member.name }}">
-            <h4>{{ member.name }}</h4>
-            <p class="text-muted">{{ member.position }}</p>
-            <ul class="list-inline social-buttons">
-              {% for network in member.social %}
-                <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                {% endfor %}
-              </ul>
+      <div class="row">
+        {% for member in site.people %}
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img src="/img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" width="255" height="255" alt="{{ member.name }}">
+              <h4>{{ member.name }}</h4>
+              <p class="text-muted">{{ member.position }}</p>
+              <ul class="list-inline social-buttons">
+                {% for network in member.social %}
+                  <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                  {% endfor %}
+                </ul>
+              </div>
             </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
       </div>
     </div>
-  </section>
+  </div>
+</div>
