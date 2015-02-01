@@ -165,6 +165,8 @@ social:
     url: http://twitter.com/padrinorb
   - title: github
     url: http://github.com/padrino
+  - title: rss
+    url: /feed.xml
 
 
 exclude:
