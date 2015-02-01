@@ -80,6 +80,14 @@ span.slogan-padrino {
   margin-top: 2em;
 }
 
+.hierarchy a {
+  background-color: #ff0000;
+}
+
+.hierarchy .label-default[href]:hover {
+  background-color: hsl(0, 100%, 40%) !important;
+}
+
 .navbar-default {
   background-color: #222;
 }
