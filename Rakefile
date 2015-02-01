@@ -23,15 +23,21 @@ layout: page
 
 {% include header_navigation.html %}
 
-<div class="container vertical-offset-top">
-  <div class="row">
-    <div class="col-lg-12 text-center">
-      <h1>{{ page.title }}</h1>
+<section id="contribute">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="section-heading">Tags</h1>
+        <p class="large">The list of all Padrino tags.</p>
+      </div>
     </div>
   </div>
+</section>
+
+<div class="container">
 
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-md-12">
 
   HTML
 
