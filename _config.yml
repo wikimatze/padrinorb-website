@@ -85,7 +85,7 @@ people:
       url: https://github.com/DAddYE
 - name: Uchio Kondo
   pic: kondo
-  position: Is the official maintainer of 日本語 Padrino サイト.
+  position: Is the official maintainer of 日本語 Padrino.
   social:
     - title: twitter
       url: https://twitter.com/udzura
@@ -93,7 +93,7 @@ people:
       url: https://github.com/udzura
 - name: namusyaka
   pic: namusyaka
-  position: I’m a ruby programmer born in Japan.
+  position: I'm a ruby programmer born in Japan.
   social:
     - title: home
       url: http://namusyaka.info/
@@ -123,7 +123,7 @@ people:
       url: https://github.com/ujifgc
 - name: Nathan Esquenazi
   pic: nathan
-  position: used to also do freelance work using Rails and Padrino
+  position: Used to also do freelance work using Rails and Padrino.
   social:
     - title: home
       url: http://codepath.com/
