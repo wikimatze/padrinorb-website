@@ -43,10 +43,15 @@ We have introduced a number of exciting improvements to admin in this release. F
 This snowballed into a huge team effort so thanks to everyone involved [@WaYdotNET](https://github.com/WaYdotNET), [@DAddYE](https://github.com/DAddYE), [@dariocravero](https://github.com/dariocravero)), [@ujifgc](https://github.com/ujifgc), [@tyabe](https://github.com/tyabe) and several others! Here’s a few screenshots of our brand new admin pages:
 
 
-<img src="http://i.imgur.com/DUO2SfU.png" class="img-responsive" alt="Padrino Admin">
-<img src="http://i.imgur.com/QDAl4nu.png" class="img-responsive" alt="Padrino Admin Edit">
-<img src="http://i.imgur.com/hPiOYqi.png" class="img-responsive" alt="Padrino Admin List">
-<img src="http://i.imgur.com/vcA6ZPV.png" class="img-responsive" alt="Padrino Admin Home">
+<br>
+<img src="http://i.imgur.com/DUO2SfU.png" class="img-responsive center-block" alt="Padrino Admin">
+<br>
+<img src="http://i.imgur.com/QDAl4nu.png" class="img-responsive center-block" alt="Padrino Admin Edit">
+<br>
+<img src="http://i.imgur.com/hPiOYqi.png" class="img-responsive center-block" alt="Padrino Admin List">
+<br>
+<img src="http://i.imgur.com/vcA6ZPV.png" class="img-responsive center-block" alt="Padrino Admin Home">
+<br>
 
 
 See more images in the [Padrino Admin Album](http://imgur.com/a/gimrX)! Note that the new Padrino Admin has a responsive design that behaves well on tablets and mobile devices. Now you can even manage your admin data from your iPad!
@@ -66,7 +71,7 @@ There were also several additional fixes for admin listed below:
 We have started to rebrand ourselves, thanks to [@tomatuxtemple](https://github.com/tomatuxtemple) we are getting there!.. Welcome the new logo:
 
 
-<img src="http://i.imgur.com/X7n3Kdo.png" class="img-responsive" alt="New brand identity on the way">
+<img src="http://i.imgur.com/X7n3Kdo.png" class="img-responsive center-block" style="width: 30%" alt="New brand identity on the way">
 
 
 The new web experience is just around the corner too, so keep your eyes and ears wide open!

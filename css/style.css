@@ -218,3 +218,7 @@ section#contribute {
 .comments {
   margin-top: 20px;
 }
+
+.img-responsive {
+  width: 70%;
+}
