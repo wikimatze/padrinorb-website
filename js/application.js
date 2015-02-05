@@ -12,8 +12,11 @@ layout:
 {% include js/jquery.tableofcontents.min.js %}
 
 
-<!-- Plugin JavaScript -->
+<!-- Plugins JavaScript -->
 {% include js/jquery.easing.min.js %}
+
+<!-- Navbar shrinking idea is from https://github.com/codrops/AnimatedHeader/tree/master/js -->
+<!-- used for expanding and shrinking the top navigation -->
 {% include js/classie.js %}
 {% include js/cbpAnimatedHeader.js %}
 
