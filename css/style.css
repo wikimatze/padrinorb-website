@@ -2,7 +2,7 @@
 layout:
 ---
 
-{% include css/bootstrap.min.css %}
+{% include css/bootstrap.css %}
 {% include css/pygments.css %}
 {% include css/agency.css %}
 {% include css/font-awesome.min.css %}
