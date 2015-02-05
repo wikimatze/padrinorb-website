@@ -2,7 +2,7 @@
 layout:
 ---
 
-{% include js/jquery-1.11.0.js %}
+{% include js/jquery.js %}
 
 <!-- Bootstrap Core -->
 {% include js/bootstrap.js %}
