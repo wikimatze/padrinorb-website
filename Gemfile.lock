@@ -90,6 +90,9 @@ GEM
       parslet (~> 1.5.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uglifier (2.7.0)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -105,3 +108,4 @@ DEPENDENCIES
   jekyll-sitemap (= 0.6.2)
   rake (= 10.3.2)
   stringex (= 2.5.2)
+  uglifier (= 2.7.0)

@@ -1,6 +1,7 @@
 require 'rake'
 require 'colorator'
 require 'cssminify'
+require 'uglifier'
 
 
 # Credit for this goes to https://gist.github.com/alexyoung/143571
@@ -85,6 +86,14 @@ task :d => :t do
   system "rm _site/css/style.css && mv _site/css/application.css _site/css/style.css"
 
   puts "Done with css minifying"
+
+
+  File.open('_site/js/tmp.js', 'w') do |file|
+    file.write(Uglifier.compile(File.open('_site/js/application.js')))
+  end
+
+  system "mv _site/js/tmp.js _site/js/application.js"
+
 
   puts 'Deploying site with lovely rsync ..'.green
   system "rsync -vru -e \"ssh\" --del ?site/* xa6195@xa6.serverdomain.org:/home/www/padrinorb/"
