@@ -77,22 +77,21 @@ task :d => :t do
   puts 'Building jekyll ..'.green
   system 'jekyll build'
 
-  puts 'Minify css and merge it into one file ..'.yellow
+  puts 'Minify CSS and JS ...'.yellow
 
-  File.open('_site/css/application.css', 'w') do |file|
-    file.write(CSSminify.compress(File.open('_site/css/style.css')))
+  File.open('_site/css/tmp.css', 'w') do |file|
+    file.write(CSSminify.compress(File.open('_site/css/application.css')))
   end
 
-  system "rm _site/css/style.css && mv _site/css/application.css _site/css/style.css"
-
-  puts "Done with css minifying"
-
+  system "mv _site/css/tmp.css _site/css/application.css"
 
   File.open('_site/js/tmp.js', 'w') do |file|
     file.write(Uglifier.compile(File.open('_site/js/application.js')))
   end
 
   system "mv _site/js/tmp.js _site/js/application.js"
+
+  puts "Done with CSS and JS minifying"
 
 
   puts 'Deploying site with lovely rsync ..'.green
