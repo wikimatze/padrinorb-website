@@ -7,6 +7,8 @@ layout:
 <!-- Bootstrap Core -->
 {% include js/bootstrap.js %}
 
+{% include js/modernizr.js %}
+
 
 <!-- Toc for guide pages -->
 {% include js/jquery.tableofcontents.min.js %}
