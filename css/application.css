@@ -222,3 +222,28 @@ section#contribute {
 .img-responsive {
   width: 70%;
 }
+
+
+.logo-navigation {
+  width: 72px;
+  height: 72px;
+  background: url("../img/logo_navigation.svg") no-repeat top left;
+}
+
+.no-svg .logo-navigation {
+  width: 72px;
+  height: 72px;
+  background-image: url("../img/logo_navigation.png");
+}
+
+.logo {
+  width: 229px;
+  height: 151px;
+  background: url("../img/logo.svg") no-repeat top left;
+}
+
+.no-svg .logo {
+  width: 229px;
+  height: 151px;
+  background-image: url("../img/logo.png");
+}
