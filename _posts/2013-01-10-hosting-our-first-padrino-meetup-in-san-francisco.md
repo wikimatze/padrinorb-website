@@ -1,7 +1,8 @@
 ---
 author: Nathan
 email: nesquena@gmail.com
-categories: update, meetup
+categories: update
+tags: padrino, meetup, update
 title: Hosting our first Padrino meetup in San Francisco!
 ---
 

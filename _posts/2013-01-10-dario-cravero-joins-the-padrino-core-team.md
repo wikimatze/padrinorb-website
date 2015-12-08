@@ -2,6 +2,7 @@
 author: Arthur
 email: mr.arthur.chiu@gmail.com
 categories: update, member
+tags: padrino, team, update
 title: Darío Cravero joins the Padrino Core Team
 ---
 
