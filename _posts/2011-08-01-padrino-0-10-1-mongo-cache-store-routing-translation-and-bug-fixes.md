@@ -2,6 +2,7 @@
 author: Nathan
 email: nesquena@gmail.com
 categories: update
+tags: padrino, sinatra, ruby
 title: Padrino 0.10.1 - Mongo Cache Store, Routing, Translation, and Bug Fixes
 ---
 

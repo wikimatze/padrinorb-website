@@ -2,6 +2,7 @@
 author: Nathan
 email: nesquena@gmail.com
 categories: ruby, update
+tags: ruby, sinatra, padrino, benches
 title: Padrino 0.9.10 Released - Built for speed!
 ---
 

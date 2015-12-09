@@ -2,6 +2,7 @@
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: update
+tags: ruby, updates
 title: Padrino 0.9.25 - Slim and Erubis, Caching, and Fixes
 ---
 

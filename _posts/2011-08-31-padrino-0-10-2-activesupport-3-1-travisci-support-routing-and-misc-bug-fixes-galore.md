@@ -2,6 +2,7 @@
 author: Nathan
 email: nesquena@gmail.com
 categories: ruby, update
+tags: padrino, release
 title: Padrino 0.10.2 - ActiveSupport 3.1, TravisCI Support, Routing and Misc Bug
   Fixes Galore
 ---

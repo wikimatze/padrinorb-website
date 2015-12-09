@@ -2,6 +2,7 @@
 author: Nathan
 email: nesquena@gmail.com
 categories: update
+tags: padrino, release, version
 title: Padrino 0.9.13 Gets Pushed Early
 ---
 

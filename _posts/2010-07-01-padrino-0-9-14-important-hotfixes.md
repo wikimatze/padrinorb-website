@@ -2,6 +2,7 @@
 author: Nathan
 email: nesquena@gmail.com
 categories: ruby, update
+tags: padrino, release, version
 title: Padrino 0.9.14 - Important Hotfixes
 ---
 

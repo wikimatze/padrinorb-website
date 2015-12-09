@@ -2,6 +2,7 @@
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: ruby, update
+tags: ruby, updates
 title: Padrino 0.9.22 - Quick Followup Release
 ---
 

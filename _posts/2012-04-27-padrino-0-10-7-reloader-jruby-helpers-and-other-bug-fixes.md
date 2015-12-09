@@ -2,6 +2,7 @@
 author: Nathan
 email: nesquena@gmail.com
 categories: ruby, update
+tags: padrino, release
 title: Padrino 0.10.7 - Reloader, JRuby, Helpers and Other Bug Fixes
 ---
 

@@ -2,6 +2,7 @@
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: update
+tags: padrino, release, version
 title: Padrino 0.9.11 Release Overview
 ---
 

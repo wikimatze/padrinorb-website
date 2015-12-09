@@ -2,6 +2,7 @@
 author: Nathan
 email: nesquena@gmail.com
 categories: ruby, update
+tags: padrino, release
 title: Padrino 0.9.21 - Nested Forms, Translations and More
 ---
 

@@ -2,6 +2,7 @@
 author: Arthur
 email: mr.arthur.chiu@gmail.com
 categories: ruby, update
+tags: padrino, release
 title: Padrino 0.10.3 - Sinatra 1.3, Documentation, Minitest, Improved Logger, and
   More
 ---

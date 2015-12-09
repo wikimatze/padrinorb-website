@@ -2,6 +2,7 @@
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: ruby
+tags: padrino, release
 title: Padrino 0.9.9 Released with Screencast
 ---
 

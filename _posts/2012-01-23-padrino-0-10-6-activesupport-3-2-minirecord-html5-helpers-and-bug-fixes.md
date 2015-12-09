@@ -2,6 +2,7 @@
 author: Nathan
 email: nesquena@gmail.com
 categories: update
+tags: padrino, release
 title: Padrino 0.10.6 - ActiveSupport 3.2, MiniRecord, HTML5 Helpers and bug fixes
 ---
 

@@ -2,6 +2,7 @@
 author: DAddYE
 email: d.dagostino@lipsiasoft.com
 categories: update
+tags: ruby, sinatra, padrino, release
 title: Padrino 0.11.0 Released - Padrino Lives!
 update: 2014-12-11
 ---
