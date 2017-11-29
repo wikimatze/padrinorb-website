@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'colorator'   , '0.1.0'
 gem 'cssminify'   , '1.0.2'
-gem 'fileutils'   , '0.7'
+gem 'fileutils'
 gem 'highline'    , '1.6.21'
 gem 'jekyll'      , '2.5.3'
 gem 'jekyll-mentions', '0.1.3'
